@@ -1,0 +1,71 @@
+# --- OS / filesystem ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- Editors / IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Logs ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Node / JS tooling ---
+node_modules/
+dist/
+build/
+coverage/
+.npm/
+.pnpm-store/
+.parcel-cache/
+.next/
+.nuxt/
+.svelte-kit/
+*.tsbuildinfo
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.python-version
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Local env / secrets ---
+.env
+.env.*
+*.local
+
+# --- Generated archives / binaries ---
+*.zip
+*.tar
+*.gz
+*.7z
+
+# --- Project-specific generated artifacts ---
+# Python bytecode caches under generated deck directories
+img/**/__pycache__/
