@@ -1,0 +1,332 @@
+# Gherkin Scenario and Feature Descriptions
+
+This file formulates unit-testable requirements in Gherkin syntax, organized by
+test module.
+
+Format:
+
+```text
+Scenario: [Short description]
+Feature: [Feature being tested]
+
+Given [Prerequisites]
+When [Event/trigger]
+Then [Expected outcome]
+```
+
+Multiple Given/When/Then statements may exist per Feature/Scenario.
+
+---
+
+## test-card.test.js
+
+### Scenario: Create an Individual Card
+
+Feature: Card Representation (FR-???)
+
+Given a card with suit "Eichel", rank "Ass", and value 11
+When the card is created
+Then the card should have suit "Eichel", rank "Ass", and value 11
+
+### Scenario: Card Immutability
+
+Feature: Immutable Card Implementation (FR-???, NFR-???)
+
+Given a card instance
+When attempting to modify the card's value
+Then the operation should fail (freeze prevents modification)
+
+### Scenario: Card Equality Comparison
+
+Feature: Card Equality (FR-???)
+
+Given two cards with identical suit and rank ("Eichel", "Ass")
+When comparing them for equality
+Then the comparison should return true
+
+Given two cards with different suits ("Eichel", "Ass") vs ("Herz", "Ass")
+When comparing them for equality
+Then the comparison should return false
+
+---
+
+## test-ui-menu.test.js
+
+### Scenario: Hamburger Menu Toggle Visibility
+
+Feature: Hamburger Menu (FR-UI-H1-001)
+
+Given the application is loaded on a primary screen
+When the page renders
+Then the hamburger toggle control is visible in the title bar
+And the control is keyboard-focusable
+And the control has accessible name "Open navigation menu"
+And the control has aria-expanded="false"
+
+### Scenario: Open and Close Menu via Toggle
+
+Feature: Hamburger Menu (FR-UI-H1-002)
+
+Given the hamburger toggle is visible and focused
+When the user activates the toggle
+Then the side bar menu becomes visible
+And aria-expanded changes to "true"
+And animation completes within 300 ms
+
+Given the side bar menu is open
+When the user activates the toggle again
+Then the side bar menu closes
+And aria-expanded changes to "false"
+
+### Scenario: Close Menu on Item Selection
+
+Feature: Hamburger Menu Dismissal (FR-UI-H1-003)
+
+Given the side bar menu is open
+And a menu item "New game…" is visible
+When the user clicks the menu item
+Then the side bar menu closes
+And the target route/view is navigated to
+
+### Scenario: Close Menu on Escape Key
+
+Feature: Hamburger Menu Dismissal (FR-UI-H1-003)
+
+Given the side bar menu is open
+And a menu item has focus
+When the user presses the `Esc` key
+Then the side bar menu closes
+And focus returns to the hamburger toggle
+
+### Scenario: Close Menu on Outside Click
+
+Feature: Hamburger Menu Dismissal (FR-UI-H1-003)
+
+Given the side bar menu is open
+And the side panel overlay is visible
+When the user clicks outside the menu on the overlay
+Then the side bar menu closes
+And focus returns to the hamburger toggle
+
+### Scenario: Menu Item Semantics and Active Indication
+
+Feature: Hamburger Menu Navigation (FR-UI-H1-004)
+
+Given the side bar menu is open
+And menu items map to routes (New game, Rules, Options, About)
+When the user navigates to the Rules route
+Then the "Rules" menu item is visually highlighted as active
+And the active-item state persists after menu closes
+
+### Scenario: Focus Management on Menu Open
+
+Feature: Hamburger Menu Accessibility (FR-UI-H1-005)
+
+Given the hamburger toggle is focused
+When the user activates the toggle to open the menu
+Then focus moves to the first actionable element in the menu
+And screen reader announces "Application menu" region
+
+### Scenario: Focus Return on Menu Close
+
+Feature: Hamburger Menu Accessibility (FR-UI-H1-005)
+
+Given the side bar menu is open with focus inside
+When the user closes the menu (via Esc, item selection, or outside click)
+Then focus returns to the hamburger toggle
+
+### Scenario: Responsive Menu Behavior on Mobile
+
+Feature: Hamburger Menu Responsiveness (FR-UI-H1-006)
+
+Given the viewport width is 480px (mobile)
+When the menu is opened
+Then the menu appears as an overlay drawer over content
+And content is not pushed right
+
+### Scenario: Responsive Menu Behavior on Desktop
+
+Feature: Hamburger Menu Responsiveness (FR-UI-H1-006)
+
+Given the viewport width is 1024px (desktop)
+When the menu is opened
+Then the menu may appear as overlay or push mode per configuration
+
+---
+
+## test-ui-title-bar.test.js
+
+### Scenario: Title Bar Required Elements
+
+Feature: Title Bar Structure (FR-UI-T1-001)
+
+Given the application is loaded
+When the title bar renders
+Then the hamburger toggle is present
+And the page title is present
+And a status/action region is present
+
+### Scenario: Title Text Reflects Route Context
+
+Feature: Dynamic Title (FR-UI-T1-002)
+
+Given the user is on the main menu route
+When the title bar renders
+Then the title text displays "Schnapsen"
+
+Given the user navigates to the Rules route
+When the title updates
+Then the title text displays "Rules" (or equivalent)
+And the update occurs without full page reload
+And update completes within 150 ms
+
+### Scenario: Title Bar Remains Sticky During Scroll
+
+Feature: Title Bar Sticky Behavior (FR-UI-T1-003)
+
+Given the title bar is rendered on a page with scrollable content
+When the user scrolls down the content area
+Then the title bar remains visible at the top
+And content below the title bar does not overlap the bar
+
+### Scenario: Action Priority Collapse on Small Screens
+
+Feature: Title Bar Action Priority (FR-UI-T1-004)
+
+Given the viewport width is 480px
+And the title bar has primary and secondary actions
+When the title bar renders
+Then secondary actions collapse into an overflow menu
+And critical actions remain directly visible
+
+Given the viewport width is 1024px
+When the title bar renders
+Then all actions are visible without collapse
+
+### Scenario: Title Bar Control Keyboard Operability
+
+Feature: Title Bar Accessibility (FR-UI-T1-005)
+
+Given the title bar has interactive controls
+When a control has focus
+Then the control is keyboard-operable (activable via Enter or Space)
+And the control meets minimum target size of 44×44 CSS px
+
+---
+
+## test-ui-badge.test.js
+
+### Scenario: Render Numeric Badge
+
+Feature: Badge Types (FR-UI-B1-001)
+
+Given a numeric badge component is created with count=5
+When the badge renders
+Then the badge displays "5"
+And the badge is visible and properly positioned
+
+### Scenario: Render Dot Badge
+
+Feature: Badge Types (FR-UI-B1-001)
+
+Given a dot badge component is created
+When the badge renders
+Then the badge displays as a small dot indicator
+And the badge is positioned consistently
+
+### Scenario: Render Status Badge
+
+Feature: Badge Types (FR-UI-B1-001)
+
+Given a status badge component is created with label="New"
+When the badge renders
+Then the badge displays "New"
+And the badge uses appropriate semantic styling
+
+### Scenario: Numeric Badge Count Formatting - Zero
+
+Feature: Badge Count Formatting (FR-UI-B1-002)
+
+Given a numeric badge is bound to a count of 0
+When the badge renders
+Then the badge is hidden by default
+(Or configurable to show "0" if explicitly set)
+
+### Scenario: Numeric Badge Count Formatting - Overflow
+
+Feature: Badge Count Formatting (FR-UI-B1-002)
+
+Given a numeric badge is bound to a count of 120
+And the badge max threshold is 99
+When the badge renders
+Then the badge displays "99+"
+And the compact form is maintained
+
+### Scenario: Numeric Badge Count Formatting - Normal Range
+
+Feature: Badge Count Formatting (FR-UI-B1-002)
+
+Given a numeric badge is bound to a count of 3
+When the badge renders
+Then the badge displays "3"
+
+### Scenario: Badge Reactive Update on State Change
+
+Feature: Badge Reactivity (FR-UI-B1-003)
+
+Given a numeric badge is bound to a game state property (e.g., pending notifications)
+And the current count is 2
+When the backing state count increases to 5
+Then the badge updates to display "5" within 200 ms
+And no manual refresh is required
+
+### Scenario: Badge Updates After Offline/Online Transition
+
+Feature: Badge Reliability (NFR-UI-REL-001)
+
+Given a badge is rendered
+And the app transitions from offline to online state
+When new state data arrives
+Then the badge updates correctly without losing bindings
+
+### Scenario: Badge Uses Semantic Color Tokens
+
+Feature: Badge Color Semantics (FR-UI-B1-004)
+
+Given a badge is marked with semantic type "error"
+When the badge renders
+Then the badge applies error color token (e.g., red)
+And the color meets WCAG 2.2 AA contrast ratio with background
+
+Given a badge is marked with semantic type "success"
+When the badge renders
+Then the badge applies success color token (e.g., green)
+
+### Scenario: Badge Positioning Consistency
+
+Feature: Badge Positioning (FR-UI-B1-005)
+
+Given a badge is attached to a menu icon
+And the viewport width is 480px (mobile)
+When the badge renders
+Then the badge anchor position is consistent (e.g., top-right)
+And the badge does not clip or shift
+
+Given the viewport width is 1024px (desktop)
+And zoom level is 200%
+When the badge renders
+Then the badge positioning remains consistent and non-clipping
+
+### Scenario: Badge Announces Count Change to Screen Reader
+
+Feature: Badge Live Region Announcements (FR-UI-B1-006)
+
+Given a badge has aria-live="polite" and aria-label="Game notifications"
+And the initial count is 0 (hidden)
+When the count changes to 3
+Then the screen reader announces "Game notifications 3"
+And the announcement uses polite politeness (does not interrupt)
+
+Given the count is 50 and displays as "50"
+When the count increases to 120 and displays as "99+"
+Then the screen reader announces "Game notifications 99 plus" (or equivalent)

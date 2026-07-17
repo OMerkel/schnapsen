@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Schnapsen is a trick-taking card game for two players" />
+    <meta name="theme-color" content="#1a3a2a" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Schnapsen" />
+    <link rel="icon" href="img/icons/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="img/icons/Schnapsen128.png" />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="AUTHOR" content="Oliver Merkel" />
+    <meta name="COPYRIGHT" content="Oliver Merkel" />
+    <title>Schnapsen</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/game.css" />
+  </head>
+  <body>
+
+    <!-- Title Bar -->
+    <div id="title-bar">
+      <button type="button" class="hamburger-btn" id="hamburger-btn" aria-label="Open menu" aria-expanded="false" aria-controls="side-panel">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+          <rect y="2"  width="18" height="2" rx="1" fill="currentColor"/>
+          <rect y="8"  width="18" height="2" rx="1" fill="currentColor"/>
+          <rect y="14" width="18" height="2" rx="1" fill="currentColor"/>
+        </svg>
+      </button>
+      <h1>Schnapsen</h1>
+      <div id="game-badge" aria-label="Game status" aria-live="polite"></div>
+    </div>
+
+    <!-- Side Panel Overlay -->
+    <div id="side-panel-overlay" aria-hidden="true"></div>
+
+    <!-- Side Panel -->
+    <nav id="side-panel" aria-label="Application menu" aria-hidden="true">
+      <button type="button" class="side-panel-item" id="sp-close">
+        <span class="item-icon">✕</span> Close
+      </button>
+      <hr class="side-panel-divider" />
+      <button type="button" class="side-panel-item" id="sp-new-game">
+        <span class="item-icon">🎮</span> New game…
+      </button>
+      <button type="button" class="side-panel-item" id="sp-rules">
+        <span class="item-icon">📖</span> Rules…
+      </button>
+      <button type="button" class="side-panel-item" id="sp-options">
+        <span class="item-icon">⚙️</span> Options…
+      </button>
+      <button type="button" class="side-panel-item" id="sp-about">
+        <span class="item-icon">ℹ️</span> About…
+      </button>
+    </nav>
+
+    <!-- Rules Page -->
+    <div id="overlay-rules" class="overlay-page" role="dialog" aria-modal="true" aria-label="Rules">
+      <div class="overlay-content">
+        <h2>📖 How to Play — Scopa</h2>
+        <h3>Objective</h3>
+        <p>Reach the target score and lead by 2 points to win (default target: 7 points).</p>
+        <h3>Scoring per Round</h3>
+        <h3>Win Condition</h3>
+        <p>Default win condition is first player to reach at least 7 points with a 2-point lead. Alternate targets are configurable in game settings.</p>
+        <button type="button" class="overlay-close-btn" data-close-overlay="overlay-rules">OK</button>
+      </div>
+    </div>
+
+    <!-- Options Page -->
+    <div id="overlay-options" class="overlay-page" role="dialog" aria-modal="true" aria-label="Options">
+      <div class="overlay-content">
+        <h2>⚙️ Options</h2>
+        <div class="options-section" id="options-player-types">
+          <!-- Player type selectors rendered here by JS -->
+        </div>
+        <div class="options-section" id="options-house-rules">
+            <!-- House rule toggles rendered here by JS -->
+        </div>
+        <div class="options-section" id="options-difficulty-container">
+          <!-- DifficultySelector rendered here by JS -->
+        </div>
+        <div class="options-section" id="options-stats-container">
+          <!-- StatisticsPanel rendered here by JS -->
+        </div>
+        <button type="button" class="overlay-close-btn" data-close-overlay="overlay-options">OK</button>
+      </div>
+    </div>
+
+    <!-- About Page -->
+    <div id="overlay-about" class="overlay-page" role="dialog" aria-modal="true" aria-label="About">
+      <div class="overlay-content">
+        <h2>About Schnapsen</h2>
+        <h3>License</h3>
+
+        <figure class="diagram" style="float:right;margin-left:12px;width:35%;">
+          <img src="img/oliver_card_playing.jpg" alt="Oliver Merkel" />
+          <figcaption>
+            Oliver Merkel,
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">cc-by-nc-nd 4.0</a>.
+          </figcaption>
+        </figure>
+        <p>
+          Copyright &copy; 2026<br />
+          <em>@author</em> Oliver Merkel, Merkel(dot)Oliver(at) web(dot)de.<br />
+          All rights reserved. Logos, brands, and trademarks belong to their respective owners.
+        </p>
+        <p>All source code (HTML, JavaScript, CSS) is released under the <strong>MIT License</strong>.</p>
+        <p>
+          Images are licensed under
+          <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0" target="_blank">
+            Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
+          </a> unless stated otherwise.
+        </p>
+        <br clear="all" />
+
+        <details>
+          <summary>Third-party Code Licenses</summary>
+          <div>
+            <p>This version uses <strong>no third-party runtime libraries</strong>.</p>
+          </div>
+        </details>
+        <br clear="all" />
+
+        <details>
+        <summary>MIT License</summary>
+        <div>
+          <p>Copyright 2026 Oliver Merkel, merkel.oliver@web.de</p>
+          <p style="margin-top:10px">Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+          <p style="margin-top:10px">The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+          <p style="margin-top:10px">THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+        </div>
+        </details>
+        <button type="button" class="overlay-close-btn" data-close-overlay="overlay-about">OK</button>
+      </div>
+    </div>
+
+    <!-- App -->
+    <div id="app">
+      <noscript>
+        <p>This application requires JavaScript to run. Please enable JavaScript in your browser.</p>
+      </noscript>
+    </div>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>

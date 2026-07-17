@@ -1,0 +1,10 @@
+{
+  "name": "Schnapsen",
+  "short_name": "Schnapsen",
+  "description": "Schnapsen is a trick-taking card game for two players.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "scope": "./",
+  "orientation": "any",
+  "lang": "en"
+}
