@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title desc">
+  <title id="title">Blatt</title>
+  <desc id="desc">German suit symbol Blatt, shown as a stylized leaf.</desc>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M50 5 C72 15 88 37 86 55 C84 72 70 85 50 87 C30 85 16 72 14 55 C12 37 28 15 50 5 Z" fill="#2d7f3b" stroke="#1d5627" stroke-width="3"/>
+    <path d="M50 87 C49 90 48 93 48 94" stroke="#1d5627" stroke-width="3" stroke-linecap="round"/>
+    <path d="M50 12.5 C50 36.5 50 59.5 50 80.5" stroke="#d8f0d1" stroke-width="3"/>
+    <path d="M50 28.5 C55 26.5 60 24.5 62 18.5" stroke="#d8f0d1" stroke-width="2.5"/>
+    <path d="M50 40.5 C60 38.5 68 35.5 70 27.5" stroke="#d8f0d1" stroke-width="2.5"/>
+    <path d="M50 52.5 C39 49.5 31 43.5 26 36.5" stroke="#d8f0d1" stroke-width="2.5"/>
+    <path d="M50 64.5 C39 62.5 28 55.5 21 45.5" stroke="#d8f0d1" stroke-width="2.5"/>
+  </g>
+</svg>

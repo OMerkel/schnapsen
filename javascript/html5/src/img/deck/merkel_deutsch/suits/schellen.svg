@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title desc">
+  <title id="title">Schellen</title>
+  <desc id="desc">German suit symbol Schellen, shown as a heraldic bell.</desc>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <g id="griff">
+		<rect x="44" y="12" width="12" height="10" rx="3" fill="#f0c13a" stroke="#9e7300" stroke-width="3"/>
+		<rect x="50" y="12" width="6" height="10" rx="3" fill="#c9a81f" opacity="0.5"/>
+		<rect x="44" y="12" width="12" height="10" rx="3" fill="none" stroke="#9e7300" stroke-width="3"/>
+	</g>
+	<g id="korpus">
+		<path d="M50 22 C66 22 80 35 80 56 C80 63 74 70 66 74 C61 76 56 78 50 78 C44 78 39 76 34 74 C26 70 20 63 20 56 C20 35 34 22 50 22 Z" fill="#f2ca52" stroke="#9e7300" stroke-width="3"/>
+		<path d="M50 22 C66 22 80 35 80 56 C80 63 74 70 66 74 C61 76 56 78 50 78 C50 78 50 22 50 22 Z" fill="#d4af37" opacity="0.4"/>
+		<path d="M50 22 C66 22 80 35 80 56 C80 63 74 70 66 74 C61 76 56 78 50 78 C44 78 39 76 34 74 C26 70 20 63 20 56 C20 35 34 22 50 22 Z" fill="none" stroke="#9e7300" stroke-width="3"/>
+	</g>
+    <path d="M30 57 H70" stroke="#b78908" stroke-width="3"/>
+    <circle cx="50" cy="66" r="6" fill="#9e7300"/>
+    <path d="M36 83 H64" stroke="#9e7300" stroke-width="4"/>
+    <path d="M50 76 V66" stroke="#9e7300" stroke-width="4"/>
+  </g>
+</svg>

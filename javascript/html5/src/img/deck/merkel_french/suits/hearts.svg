@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title desc">
+  <title id="title">Hearts</title>
+  <desc id="desc">French suit symbol Hearts as a classic heart shape.</desc>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M50 86 C24 66 10 51 10 33 C10 20 20 10 33 10 C41 10 47 14 50 20 C53 14 59 10 67 10 C80 10 90 20 90 33 C90 51 76 66 50 86 Z" fill="#c62839" stroke="#8e1022" stroke-width="3"/>
+    <path d="M34 22 C27 22 22 27 22 34" stroke="#f1a1aa" stroke-width="3"/>
+  </g>
+</svg>

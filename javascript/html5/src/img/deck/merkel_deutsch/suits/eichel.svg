@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title desc">
+  <title id="title">Eichel</title>
+  <desc id="desc">German suit symbol Eichel, shown as an acorn.</desc>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M50 18 C43 9 33 7 24 10" stroke="#5a6b3a" stroke-width="4"/>
+    <path d="M50 28 C37 28 28 37 28 48 C28 61 42 80 50 84 C58 80 72 61 72 48 C72 37 63 28 50 28 Z" fill="#8a5527" stroke="#4d2e13" stroke-width="3"/>
+    <path d="M50 33 C44 39 42 45 42 52 C42 66 46 73 50 76 C54 73 58 66 58 52 C58 45 56 39 50 33 Z" fill="#b97a43" opacity="0.55"/>
+    <path d="M25 38 C25 20 36 16 50 16 C64 16 75 20 75 38 C75 42 69 45 50 45 C31 45 25 42 25 38 Z" fill="#5a6a2f" stroke="#3d5a1f" stroke-width="3"/>
+    <path d="M31 35 Q35 39 39 35 M41 35 Q45 39 49 35 M51 35 Q55 39 59 35 M61 35 Q65 39 69 35" stroke="#7a8a4a" stroke-width="2"/>
+  </g>
+</svg>

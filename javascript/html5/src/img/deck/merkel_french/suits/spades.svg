@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title desc">
+  <title id="title">Spades</title>
+  <desc id="desc">French suit symbol Spades as an inverted heart with stem.</desc>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M50 8 C66 25 88 40 88 58 C88 71 78 80 66 80 C60 80 54 77 50 72 C46 77 40 80 34 80 C22 80 12 71 12 58 C12 40 34 25 50 8 Z" fill="#222"/>
+    <path d="M50 72 C46 79 43 86 43 92 H57 C57 86 54 79 50 72 Z" fill="#222"/>
+  </g>
+</svg>

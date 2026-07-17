@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title desc">
+  <title id="title">Diamonds</title>
+  <desc id="desc">French suit symbol Diamonds as a classic lozenge shape.</desc>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M50 8 Q58 28 84 50 Q58 72 50 92 Q42 72 16 50 Q42 28 50 8 Z" fill="#d53345" stroke="#8e1022" stroke-width="3"/>
+    <path d="M50 20 Q56 34 72 50 Q56 66 50 80 Q44 66 28 50 Q44 34 50 20 Z" fill="#f06e7b" opacity="0.35"/>
+  </g>
+</svg>
