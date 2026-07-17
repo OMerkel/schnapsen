@@ -12,6 +12,8 @@ Use a 20-card deck (German or equivalent):
 - Ober = 3 points
 - Unter = 2 points
 
+These have four card suits: Acorn ("Eichel"), Leave ("Blatt"), Heart ("Herz"), Bell ("Schellen")
+
 Total trick-card value in the deck: 120 points.
 
 ### Variant: 24 Cards (Including 9s)

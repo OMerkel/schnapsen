@@ -12,6 +12,8 @@ Gespielt wird mit einem 20er Blatt (deutsches Blatt oder entsprechendes Pendant)
 - Ober = 3 Augen
 - Unter = 2 Augen
 
+Diese haben vier Kartenfarben: Eichel, Blatt, Herz, Schellen
+
 Gesamtwert aller Stichkarten im Blatt: 120 Augen.
 
 ### Variante: 24 Karten (mit 9)
