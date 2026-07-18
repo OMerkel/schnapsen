@@ -2,7 +2,10 @@
   <title id="title">Spades</title>
   <desc id="desc">French suit symbol Spades as an inverted heart with stem.</desc>
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M50 8 C66 25 88 40 88 58 C88 71 78 80 66 80 C60 80 54 77 50 72 C46 77 40 80 34 80 C22 80 12 71 12 58 C12 40 34 25 50 8 Z" fill="#222"/>
-    <path d="M50 72 C46 79 43 86 43 92 H57 C57 86 54 79 50 72 Z" fill="#222"/>
+    <path
+       d="m 50,8 c 16,17 38,32 38,50 0,13 -10,22 -22,22 -3,0 -11.109961,-3.91947 -13.859961,-5.29447 2.33576,9.395816 12.189377,17.60878 14.42023,17.624392 H 33.83405 C 36.595195,92.446735 45.538914,84.639569 47.730595,74.834896 44.980595,76.209896 37,80 34,80 22,80 12,71 12,58 12,40 34,25 50,8 Z"
+       fill="#222222"
+       id="spades"
+       style="opacity:1;fill:#1a1a1a;stroke:#e9ddaf;stroke-width:1.5;stroke-dasharray:none" />
   </g>
 </svg>

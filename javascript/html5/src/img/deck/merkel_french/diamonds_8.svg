@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+Copyright (c) 2026
+@author Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de.
+All rights reserved.
+
+This graphics is licensed under a
+http://creativecommons.org/licenses/by-nc-sa/4.0/
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+-->
+<svg version="1.1"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    width="750px" height="1200px"
+    viewBox="0 0 750 1200" role="img" aria-labelledby="title desc">
+  <title id="title">8 of Diamonds</title>
+  <metadata id="metadata7">
+        <rdf:RDF>
+            <cc:Work rdf:about="">
+                <dc:format>image/svg+xml</dc:format>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+                <dc:title>8 of Diamonds</dc:title>
+                <dc:date>2026-07-20</dc:date>
+                <dc:creator>
+                    <cc:Agent>
+                        <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
+                    </cc:Agent>
+                </dc:creator>
+                <dc:rights>
+                    <cc:Agent>
+                        <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
+                    </cc:Agent>
+                </dc:rights>
+                <dc:publisher>
+                    <cc:Agent>
+                        <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
+                    </cc:Agent>
+                </dc:publisher>
+                <dc:language>en-GB</dc:language>
+                <cc:license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
+            </cc:Work>
+            <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction" />
+                <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution" />
+                <cc:requires rdf:resource="http://creativecommons.org/ns#Notice" />
+                <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution" />
+                <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse" />
+                <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+                <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+            </cc:License>
+        </rdf:RDF>
+    </metadata>
+    <desc id="desc">Traditional-style 52-card French SVG deck.</desc>
+  <defs>
+    <linearGradient id="paperGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fffdf6"/>
+      <stop offset="100%" stop-color="#f5eddc"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.18"/>
+    </filter>
+    <g id="suitSymbols">
+      <g id="suit-clubs">
+        <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path
+               id="clubs"
+               style="fill:#222222;stroke:#e9ddaf;stroke-width:1.5;stroke-dasharray:none"
+               d="m 50,14 c -8.836556,0 -16,7.163444 -16,16 1.16e-4,2.056474 0.396675,4.093644 1.167969,6 -0.05599,-2.94e-4 -0.11198,-2.94e-4 -0.167969,0 -8.836556,0 -16,7.163444 -16,16 0,8.836556 7.163444,16 16,16 4.395418,5.2e-5 8.597291,-1.808116 11.619141,-5 C 45.09302,66.164465 44,69.171488 44,74 c 0,3.255437 0.882786,5.922104 2.169922,8 H 42 v 4 H 58 V 82 H 53.830078 C 55.117214,79.922104 56,77.255437 56,74 56,69.171488 54.90698,66.164465 53.380859,63 56.402709,66.191884 60.604582,68.000052 65,68 73.836556,68 81,60.836556 81,52 81,43.163444 73.836556,36 65,36 64.944011,35.999706 64.88802,35.999706 64.832031,36 65.603325,34.093644 65.999884,32.056474 66,30 66,21.163444 58.836556,14 50,14 Z" />
+          </g>
+      </g>
+      <g id="suit-spades">
+        <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path
+               d="m 50,8 c 16,17 38,32 38,50 0,13 -10,22 -22,22 -3,0 -11.109961,-3.91947 -13.859961,-5.29447 2.33576,9.395816 12.189377,17.60878 14.42023,17.624392 H 33.83405 C 36.595195,92.446735 45.538914,84.639569 47.730595,74.834896 44.980595,76.209896 37,80 34,80 22,80 12,71 12,58 12,40 34,25 50,8 Z"
+               fill="#222222"
+               id="spades"
+               style="opacity:1;fill:#1a1a1a;stroke:#e9ddaf;stroke-width:1.5;stroke-dasharray:none" />
+          </g>
+      </g>
+      <g id="suit-hearts">
+        <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M50 86 C24 66 10 51 10 33 C10 20 20 10 33 10 C41 10 47 14 50 20 C53 14 59 10 67 10 C80 10 90 20 90 33 C90 51 76 66 50 86 Z" fill="#c62839" stroke="#8e1022" stroke-width="3"/>
+            <path d="M34 22 C27 22 22 27 22 34" stroke="#f1a1aa" stroke-width="3"/>
+          </g>
+      </g>
+      <g id="suit-diamonds">
+        <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M50 8 Q58 28 84 50 Q58 72 50 92 Q42 72 16 50 Q42 28 50 8 Z" fill="#d53345" stroke="#8e1022" stroke-width="3"/>
+            <path d="M50 20 Q56 34 72 50 Q56 66 50 80 Q44 66 28 50 Q44 34 50 20 Z" fill="#f06e7b" opacity="0.35"/>
+          </g>
+      </g>
+    </g>
+  </defs>
+    <rect x="13" y="13" width="724" height="1174" rx="36" fill="url(#paperGradient)"/>
+  <rect x="60" y="60" width="630" height="1080" rx="28" fill="none" stroke="#d53345" stroke-width="8"/>
+    <line x1="60" y1="600" x2="690" y2="600" stroke="#d53345" stroke-width="8"/>
+<g transform="translate(200 510) rotate(0) scale(2) translate(-50 -50)">
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M50 8 Q58 28 84 50 Q58 72 50 92 Q42 72 16 50 Q42 28 50 8 Z" fill="#d53345" stroke="#8e1022" stroke-width="3"/>
+    <path d="M50 20 Q56 34 72 50 Q56 66 50 80 Q44 66 28 50 Q44 34 50 20 Z" fill="#f06e7b" opacity="0.35"/>
+  </g>
+</g>
+<g transform="translate(200 400) rotate(0) scale(2) translate(-50 -50)">
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M50 8 Q58 28 84 50 Q58 72 50 92 Q42 72 16 50 Q42 28 50 8 Z" fill="#d53345" stroke="#8e1022" stroke-width="3"/>
+    <path d="M50 20 Q56 34 72 50 Q56 66 50 80 Q44 66 28 50 Q44 34 50 20 Z" fill="#f06e7b" opacity="0.35"/>
+  </g>
+</g>
+<g transform="translate(200 290) rotate(0) scale(2) translate(-50 -50)">
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M50 8 Q58 28 84 50 Q58 72 50 92 Q42 72 16 50 Q42 28 50 8 Z" fill="#d53345" stroke="#8e1022" stroke-width="3"/>
+    <path d="M50 20 Q56 34 72 50 Q56 66 50 80 Q44 66 28 50 Q44 34 50 20 Z" fill="#f06e7b" opacity="0.35"/>
+  </g>
+</g>
+<g transform="translate(200 180) rotate(0) scale(2) translate(-50 -50)">
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M50 8 Q58 28 84 50 Q58 72 50 92 Q42 72 16 50 Q42 28 50 8 Z" fill="#d53345" stroke="#8e1022" stroke-width="3"/>
+    <path d="M50 20 Q56 34 72 50 Q56 66 50 80 Q44 66 28 50 Q44 34 50 20 Z" fill="#f06e7b" opacity="0.35"/>
+  </g>
+</g>
+<g transform="translate(550 510) rotate(0) scale(2) translate(-50 -50)">
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M50 8 Q58 28 84 50 Q58 72 50 92 Q42 72 16 50 Q42 28 50 8 Z" fill="#d53345" stroke="#8e1022" stroke-width="3"/>
+    <path d="M50 20 Q56 34 72 50 Q56 66 50 80 Q44 66 28 50 Q44 34 50 20 Z" fill="#f06e7b" opacity="0.35"/>
+  </g>
+</g>
+<g transform="translate(550 400) rotate(0) scale(2) translate(-50 -50)">
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M50 8 Q58 28 84 50 Q58 72 50 92 Q42 72 16 50 Q42 28 50 8 Z" fill="#d53345" stroke="#8e1022" stroke-width="3"/>
+    <path d="M50 20 Q56 34 72 50 Q56 66 50 80 Q44 66 28 50 Q44 34 50 20 Z" fill="#f06e7b" opacity="0.35"/>
+  </g>
+</g>
+<g transform="translate(550 290) rotate(0) scale(2) translate(-50 -50)">
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M50 8 Q58 28 84 50 Q58 72 50 92 Q42 72 16 50 Q42 28 50 8 Z" fill="#d53345" stroke="#8e1022" stroke-width="3"/>
+    <path d="M50 20 Q56 34 72 50 Q56 66 50 80 Q44 66 28 50 Q44 34 50 20 Z" fill="#f06e7b" opacity="0.35"/>
+  </g>
+</g>
+<g transform="translate(550 180) rotate(0) scale(2) translate(-50 -50)">
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M50 8 Q58 28 84 50 Q58 72 50 92 Q42 72 16 50 Q42 28 50 8 Z" fill="#d53345" stroke="#8e1022" stroke-width="3"/>
+    <path d="M50 20 Q56 34 72 50 Q56 66 50 80 Q44 66 28 50 Q44 34 50 20 Z" fill="#f06e7b" opacity="0.35"/>
+  </g>
+</g>
+  <text x="375" y="148" text-anchor="middle" font-size="96" font-family="Times New Roman, serif" font-weight="700" fill="#2a241c">VIII</text>
+  <g transform="translate(375 600) rotate(180) translate(-375 -600)">
+    <g transform="translate(200 510) rotate(0) scale(2) translate(-50 -50)">
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M50 8 Q58 28 84 50 Q58 72 50 92 Q42 72 16 50 Q42 28 50 8 Z" fill="#d53345" stroke="#8e1022" stroke-width="3"/>
+    <path d="M50 20 Q56 34 72 50 Q56 66 50 80 Q44 66 28 50 Q44 34 50 20 Z" fill="#f06e7b" opacity="0.35"/>
+  </g>
+</g>
+<g transform="translate(200 400) rotate(0) scale(2) translate(-50 -50)">
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M50 8 Q58 28 84 50 Q58 72 50 92 Q42 72 16 50 Q42 28 50 8 Z" fill="#d53345" stroke="#8e1022" stroke-width="3"/>
+    <path d="M50 20 Q56 34 72 50 Q56 66 50 80 Q44 66 28 50 Q44 34 50 20 Z" fill="#f06e7b" opacity="0.35"/>
+  </g>
+</g>
+<g transform="translate(200 290) rotate(0) scale(2) translate(-50 -50)">
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M50 8 Q58 28 84 50 Q58 72 50 92 Q42 72 16 50 Q42 28 50 8 Z" fill="#d53345" stroke="#8e1022" stroke-width="3"/>
+    <path d="M50 20 Q56 34 72 50 Q56 66 50 80 Q44 66 28 50 Q44 34 50 20 Z" fill="#f06e7b" opacity="0.35"/>
+  </g>
+</g>
+<g transform="translate(200 180) rotate(0) scale(2) translate(-50 -50)">
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M50 8 Q58 28 84 50 Q58 72 50 92 Q42 72 16 50 Q42 28 50 8 Z" fill="#d53345" stroke="#8e1022" stroke-width="3"/>
+    <path d="M50 20 Q56 34 72 50 Q56 66 50 80 Q44 66 28 50 Q44 34 50 20 Z" fill="#f06e7b" opacity="0.35"/>
+  </g>
+</g>
+<g transform="translate(550 510) rotate(0) scale(2) translate(-50 -50)">
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M50 8 Q58 28 84 50 Q58 72 50 92 Q42 72 16 50 Q42 28 50 8 Z" fill="#d53345" stroke="#8e1022" stroke-width="3"/>
+    <path d="M50 20 Q56 34 72 50 Q56 66 50 80 Q44 66 28 50 Q44 34 50 20 Z" fill="#f06e7b" opacity="0.35"/>
+  </g>
+</g>
+<g transform="translate(550 400) rotate(0) scale(2) translate(-50 -50)">
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M50 8 Q58 28 84 50 Q58 72 50 92 Q42 72 16 50 Q42 28 50 8 Z" fill="#d53345" stroke="#8e1022" stroke-width="3"/>
+    <path d="M50 20 Q56 34 72 50 Q56 66 50 80 Q44 66 28 50 Q44 34 50 20 Z" fill="#f06e7b" opacity="0.35"/>
+  </g>
+</g>
+<g transform="translate(550 290) rotate(0) scale(2) translate(-50 -50)">
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M50 8 Q58 28 84 50 Q58 72 50 92 Q42 72 16 50 Q42 28 50 8 Z" fill="#d53345" stroke="#8e1022" stroke-width="3"/>
+    <path d="M50 20 Q56 34 72 50 Q56 66 50 80 Q44 66 28 50 Q44 34 50 20 Z" fill="#f06e7b" opacity="0.35"/>
+  </g>
+</g>
+<g transform="translate(550 180) rotate(0) scale(2) translate(-50 -50)">
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M50 8 Q58 28 84 50 Q58 72 50 92 Q42 72 16 50 Q42 28 50 8 Z" fill="#d53345" stroke="#8e1022" stroke-width="3"/>
+    <path d="M50 20 Q56 34 72 50 Q56 66 50 80 Q44 66 28 50 Q44 34 50 20 Z" fill="#f06e7b" opacity="0.35"/>
+  </g>
+</g>
+  <text x="375" y="148" text-anchor="middle" font-size="96" font-family="Times New Roman, serif" font-weight="700" fill="#2a241c">VIII</text>
+  </g>
+    <rect x="13" y="13" width="724" height="1174" rx="36" fill="none" stroke="#2a241c" stroke-opacity="0.32" stroke-width="5"/>
+</svg>

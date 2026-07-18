@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Generate Cards German Double Deck",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "generate_cards_german_double.py"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/javascript/html5/src/img/deck/merkel_deutsch"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Generate Cards French Double Deck",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "generate_cards_french_double.py"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/javascript/html5/src/img/deck/merkel_french"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

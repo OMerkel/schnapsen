@@ -9,7 +9,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <meta name="apple-mobile-web-app-title" content="Schnapsen" />
     <link rel="icon" href="img/icons/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="img/icons/Schnapsen128.png" />
+    <link rel="apple-touch-icon" href="img/icons/Schnapsen90.png" />
     <link rel="manifest" href="manifest.json" />
     <meta name="AUTHOR" content="Oliver Merkel" />
     <meta name="COPYRIGHT" content="Oliver Merkel" />
@@ -29,7 +29,7 @@
         </svg>
       </button>
       <h1>Schnapsen</h1>
-      <div id="game-badge" aria-label="Game status" aria-live="polite"></div>
+      <div id="game-badge" role="status" aria-live="polite" aria-atomic="true"></div>
     </div>
 
     <!-- Side Panel Overlay -->
@@ -58,12 +58,9 @@
     <!-- Rules Page -->
     <div id="overlay-rules" class="overlay-page" role="dialog" aria-modal="true" aria-label="Rules">
       <div class="overlay-content">
-        <h2>📖 How to Play — Scopa</h2>
-        <h3>Objective</h3>
-        <p>Reach the target score and lead by 2 points to win (default target: 7 points).</p>
-        <h3>Scoring per Round</h3>
-        <h3>Win Condition</h3>
-        <p>Default win condition is first player to reach at least 7 points with a 2-point lead. Alternate targets are configurable in game settings.</p>
+        <h2>📖 Rules Placeholder</h2>
+        <p>This is a small static placeholder shown before app initialization.</p>
+        <p>During game initialization, <strong>renderRules()</strong> in <strong>ui/game-controller.js</strong> replaces this content with the current runtime rules text.</p>
         <button type="button" class="overlay-close-btn" data-close-overlay="overlay-rules">OK</button>
       </div>
     </div>
@@ -95,7 +92,7 @@
         <h3>License</h3>
 
         <figure class="diagram" style="float:right;margin-left:12px;width:35%;">
-          <img src="img/oliver_card_playing.jpg" alt="Oliver Merkel" />
+          <img src="img/oliver_vienna_schnapsen.jpg" alt="Oliver Merkel" />
           <figcaption>
             Oliver Merkel,
             <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">cc-by-nc-nd 4.0</a>.

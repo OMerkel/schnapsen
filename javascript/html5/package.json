@@ -1,0 +1,39 @@
+{
+  "name": "schnapsen",
+  "version": "1.0.0",
+  "description": "Schnapsen implementation in HTML5/JavaScript/PWA with AI. Schnapsen is a trick-taking card game for two players.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest --coverage --run",
+    "lint": "biome lint src/",
+    "lint:md": "markdownlint-cli2 \"../../doc/**/*.md\" \"**/*.md\" \"!**/node_modules/**\" \"!**/dist/**\" \"!**/coverage/**\"",
+    "lint:fix": "biome lint src/ --write",
+    "format": "biome format src/ --write",
+    "ci": "biome ci src/ && vitest --run"
+  },
+  "keywords": [
+    "card-game",
+    "schnapsen",
+    "trick-taking",
+    "pwa",
+    "ai",
+    "game-ai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.4",
+    "@vitest/coverage-v8": "^4.1.10",
+    "@vitest/ui": "^4.1.10",
+    "jsdom": "^29.1.1",
+    "markdownlint-cli2": "^0.23.1",
+    "vite": "^8.1.5",
+    "vitest": "^4.1.10"
+  }
+}

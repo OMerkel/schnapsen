@@ -1,10 +1,39 @@
 {
   "name": "Schnapsen",
   "short_name": "Schnapsen",
-  "description": "Schnapsen is a trick-taking card game for two players.",
+  "description": "Offline-capable Schnapsen PWA for two players.",
   "start_url": "./index.html",
   "display": "standalone",
+  "background_color": "#10281b",
+  "theme_color": "#1a3a2a",
   "scope": "./",
   "orientation": "any",
-  "lang": "en"
+  "lang": "de",
+  "icons": [
+    {
+      "src": "img/icons/Schnapsen32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icons/Schnapsen48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icons/Schnapsen60.png",
+      "sizes": "60x60",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icons/Schnapsen64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icons/Schnapsen90.png",
+      "sizes": "90x90",
+      "type": "image/png"
+    }
+  ]
 }
