@@ -33,12 +33,13 @@ This document defines formal, testable requirements for implementing a two-playe
 - FR-OPT-002: The Options menu shall expose a Deck Variant control with values: 24-card and 20-card.
 - FR-OPT-003: The Deck Variant default shall be 24-card for first run and when settings are reset.
 - FR-OPT-004: The selected Deck Variant shall be applied to every newly started match.
-- FR-OPT-005: The Options menu shall expose Player 1 type with values: Human, AI.
-- FR-OPT-006: The Options menu shall expose Player 2 type with values: Human, AI.
+- FR-OPT-005: The Options menu shall expose Player South type with values: human, AI.
+- FR-OPT-006: The Options menu shall expose Player North type with values: human, AI.
 - FR-OPT-007: When a player type is set to AI, that player shall have an AI Level control with values: Easy, Medium, Hard.
 - FR-OPT-008: When a player type is set to Human, AI Level for that slot shall be hidden or disabled and not used by game logic.
 - FR-OPT-009: Option changes shall be persisted locally and restored on next app launch.
-- FR-OPT-010: A "Restore Defaults" action shall reset options to: 24-card deck, Player 1 Human, Player 2 Human.
+- FR-OPT-010: A "Restore Defaults" action shall reset options to: 24-card deck, Player South human, Player North human.
+- FR-OPT-011: Internal player slot identity shall be stable and seat-based (`player_south` for Player South, `player_north` for Player North).
 
 ### 4.2 Deck Composition and Card Values (Suite: DeckAndCards)
 
@@ -55,17 +56,18 @@ This document defines formal, testable requirements for implementing a two-playe
 - FR-DAL-001: At hand start, dealer shall be selected uniformly at random.
 - FR-DAL-002: Each player shall receive exactly 5 cards.
 - FR-DAL-003: Remaining cards shall form the talon (stock) as a face-down pile.
-- FR-DAL-004: The top talon card shall be revealed and define trump suit.
+- FR-DAL-004: The top talon card shall be revealed and define Atout suit.
 - FR-DAL-005: The non-dealer shall lead the first trick.
 
 ### 4.4 Trick Play with Open Talon (Suite: OpenTalonPlay)
 
 - FR-OPN-001: While talon is open, leader shall be allowed to play any legal card from hand.
 - FR-OPN-002: While talon is open, follower shall be allowed to play any legal card from hand (no forced follow-suit).
-- FR-OPN-003: Trick winner shall be highest card of led suit unless at least one trump is played.
-- FR-OPN-004: Any trump shall beat any non-trump.
-- FR-OPN-005: If both played cards are trumps, higher trump rank shall win.
+- FR-OPN-003: Trick winner shall be highest card of led suit unless at least one Atout is played.
+- FR-OPN-004: Any Atout shall beat any non-Atout.
+- FR-OPN-005: If both played cards are Atouts, higher Atout rank shall win.
 - FR-OPN-006: After each trick while talon is open, trick winner shall draw first from talon, then trick loser shall draw second.
+- FR-OPN-008: On the last open talon draw (exactly one face-down talon card plus open Atout card), trick winner shall receive the final face-down talon card and trick loser shall receive the open Atout card.
 - FR-OPN-007: Trick winner shall lead the next trick.
 
 ### 4.5 Strict Play (Talon Exhausted or Closed) (Suite: StrictPlay)
@@ -73,19 +75,26 @@ This document defines formal, testable requirements for implementing a two-playe
 - FR-STR-001: When talon is exhausted or closed, strict legality rules shall apply.
 - FR-STR-002: A player shall follow suit if possible.
 - FR-STR-003: If following suit and able to beat the current winning card, player shall head the trick.
-- FR-STR-004: If follow suit is impossible, player shall play trump if possible.
-- FR-STR-005: Only when neither follow-suit nor trump is possible, player may play any card.
+- FR-STR-004: If follow suit is impossible, player shall play Atout if possible.
+- FR-STR-005: Only when neither follow-suit nor Atout is possible, player may play any card.
+- FR-STR-006: Talon exhaustion shall trigger strict play from the immediately following trick onward, while keeping Atout suit semantics active until hand end.
 
 ### 4.6 Marriage (Suite: MarriageScoring)
 
 - FR-MRG-001: Marriage announcement shall be allowed only by the active leader.
 - FR-MRG-002: Marriage announcement shall require leader to play Konig or Ober of a suit while holding the matching partner card in hand.
 - FR-MRG-003: On announcement, UI shall reveal/indicate both marriage cards and still play exactly one card to the current trick.
-- FR-MRG-004: Non-trump marriage shall be worth 20 points.
-- FR-MRG-005: Trump marriage shall be worth 40 points.
+- FR-MRG-004: Non-Atout marriage shall be worth 20 points.
+- FR-MRG-005: Atout marriage shall be worth 40 points.
 - FR-MRG-006: Marriage points shall count only if announcing player wins at least one trick in the hand.
 - FR-MRG-007: If announcing player already has at least one trick, marriage points shall be applied immediately.
 - FR-MRG-008: If announcing player has no trick yet, marriage points shall be deferred and applied when that player wins first trick.
+- FR-MRG-012: If FR-MRG-007 immediate scoring raises announcing leader to 66 or more, declare-66 action shall be legal immediately after announce-marriage and before marriage lead card is played.
+- FR-MRG-009: Marriage scoring shall require an explicit announce-marriage action before the lead card is played.
+- FR-MRG-010: If a player leads a valid King/Ober marriage card without explicit announce-marriage action, marriage points shall not be scored.
+- FR-MRG-011: After announce-marriage action, the leader's legal lead for that trick shall be restricted to King or Ober of the announced suit.
+- FR-MRG-013: At most one marriage announcement shall be accepted per lead/trick.
+- FR-MRG-014: If multiple marriageable suits are held, additional marriage announcements shall require subsequent leads after trick resolution and cannot be stacked into the same lead.
 
 ### 4.7 Closing Talon (Suite: TalonClose)
 
@@ -93,18 +102,24 @@ This document defines formal, testable requirements for implementing a two-playe
 - FR-TAL-002: Closing talon shall be allowed only for the active leader before leading a card.
 - FR-TAL-003: After closing talon, no player shall draw from talon for the rest of the hand.
 - FR-TAL-004: After closing talon, strict play rules shall apply immediately from the same trick onward.
-- FR-TAL-005: If the player who closed talon fails to reach 66 in the hand, that player shall lose the hand.
+- FR-TAL-005: If the player who closed talon does not correctly declare 66 before all remaining cards are played, that player shall lose the hand.
+- FR-TAL-006: While talon is open, the active leader may swap the open Atout card with the lowest Atout rank from hand (24-card: 9, 20-card: Unter) before leading a card only if more than two cards remain in talon.
+- FR-TAL-007: Atout swap shall not be allowed once talon is closed.
+- FR-TAL-008: If a marriage has been announced but no lead card has yet been played for that trick, close-talon shall remain legal for the active leader when FR-TAL-001 and FR-TAL-002 preconditions are met.
 
 ### 4.8 Hand End and Hand Scoring (Suite: HandResolution)
 
-- FR-END-001: A hand shall end immediately when a player reaches and declares 66 or more points.
+- FR-END-001: A hand shall end immediately when the active leader declares 66.
+- FR-END-009: Declaring 66 shall be legal only for the active leader before any card is played in the current trick.
+- FR-END-011: The pre-lead action window shall support legal reordering among swap-atout, close-talon, announce-marriage, and declare-66, including edge-case sequences where close-talon occurs before or after announce-marriage.
+- FR-END-010: If a 66 declaration is made with fewer than 66 points, declarer shall lose immediately.
 - FR-END-002: If neither player declares 66 before all cards are played, hand shall continue to final trick.
-- FR-END-003: Winner of final trick in full-play end shall receive a 10-point last-trick bonus.
-- FR-END-004: In full-play end, hand winner shall be player with higher total points after last-trick bonus.
-- FR-END-005: Winner shall receive 1 game point if loser has 33 or more card points.
-- FR-END-006: Winner shall receive 2 game points if loser has 0 to 32 card points.
-- FR-END-007: Winner shall receive 3 game points if loser won no trick.
-- FR-END-008: If talon was closed and closer fails to reach 66, opponent shall receive game points per FR-END-005 to FR-END-007.
+- FR-END-003: In no-claim full-play end, winner of final trick shall win the hand.
+- FR-END-004: In no-claim full-play end, final-trick winner shall receive exactly 1 game point regardless of card-point totals.
+- FR-END-005: Correctly claimed declare-66 winner shall receive 2 game points if loser has at least one trick.
+- FR-END-006: Wrong declare-66 or failed talon-close commitment shall award opponent 2 game points as standard.
+- FR-END-007: Any declare/close resolution where the losing side has no trick (Schwarz) shall award winner 3 game points.
+- FR-END-008: If talon was closed and closer fails FR-TAL-005, opponent shall receive fixed penalty game points as defined by FR-END-006 and FR-END-007.
 
 ### 4.9 Match Progression (Suite: MatchScoring)
 
@@ -133,9 +148,18 @@ This document defines formal, testable requirements for implementing a two-playe
 ### 4.12 UI and Rules Visibility (Suite: UIAndRules)
 
 - FR-UIR-001: The app shall provide an in-app rules/help screen summarizing gameplay rules from [doc/rules.md](rules.md).
-- FR-UIR-002: The UI shall clearly indicate trump suit, current leader, talon status (open/closed/exhausted), and current points.
+- FR-UIR-002: The UI shall clearly indicate Atout suit, current leader, talon state (open/closed/exhausted), and current points.
 - FR-UIR-003: The UI shall indicate pending/deferred marriage points and when they are converted into score.
 - FR-UIR-004: The UI shall prevent illegal card selection and provide reason feedback.
+- FR-UIR-005: In open talon state, the talon shall be rendered as a face-down pile laid crosswise over the open Atout card so that the Atout remains partly visible.
+- FR-UIR-006: In closed talon state, the talon/Atout stack shall remain visible but the Atout shall be rendered as a face-down card and layered above the talon.
+- FR-UIR-007: In exhausted talon state, both talon and Atout stack visuals shall be hidden.
+- FR-UIR-008: The action panel shall expose an Atout swap action that is enabled only when FR-TAL-006 preconditions are met.
+- FR-UIR-009: Board seat positions shall remain fixed: Player South at the south hand area and Player North at the north hand area.
+- FR-UIR-010: Only the active player's hand cards shall be rendered face-up; the inactive player's hand cards shall be rendered as backfaces.
+- FR-UIR-011: Playable card interaction shall be enabled only for the active player's hand cards.
+- FR-UIR-012: Action panel button controls shall always target the currently active player.
+- FR-UIR-013: Seat naming in gameplay UI shall display `Player South` or `AI South` for south seat and `Player North` or `AI North` for north seat based on selected player type.
 
 ### 4.13 UI Components: Hamburger Menu, Title Bar, and Badge System (Suite: UIComponents)
 
@@ -288,6 +312,12 @@ This document defines formal, testable requirements for implementing a two-playe
   - Mobile user opens hamburger, navigates to menu item, menu closes, focus returns to toggle.
   - Navigating to different view updates title immediately and keeps header sticky during scroll.
   - Badge shows `99+` at count 120, hides at count 0, announces change to screen reader.
+
+### 6.5 Gherkin Synchronization (Suite: Traceability)
+
+- TST-GRK-001: `doc/gherkin.md` and `doc/requirements.md` shall stay synchronized via the canonical snapshot in [doc/gherkin-sync-section.md](gherkin-sync-section.md).
+- TST-GRK-002: Each automated test case in `javascript/html5/src/test/*.test.js` shall include aligned `Scenario`, `Feature`, and `Req IDs` comments.
+- TST-GRK-003: Changes to requirement IDs or scenario intent shall be reflected in both `doc/gherkin.md` and `doc/gherkin-sync-section.md` within the same update.
 
 ## 7. Traceability Rules
 

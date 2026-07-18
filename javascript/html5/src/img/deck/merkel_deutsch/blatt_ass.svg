@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+Copyright (c) 2026
+@author Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de.
+All rights reserved.
+
+This graphics is licensed under a
+http://creativecommons.org/licenses/by-nc-sa/4.0/
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+-->
+<svg version="1.1"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    width="750px" height="1200px"
+    viewBox="0 0 750 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Ass von Blatt</title>
+  <metadata id="metadata7">
+        <rdf:RDF>
+            <cc:Work rdf:about="">
+                <dc:format>image/svg+xml</dc:format>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+                <dc:title>Ass von Blatt</dc:title>
+                <dc:date>2026-07-20</dc:date>
+                <dc:creator>
+                    <cc:Agent>
+                        <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
+                    </cc:Agent>
+                </dc:creator>
+                <dc:rights>
+                    <cc:Agent>
+                        <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
+                    </cc:Agent>
+                </dc:rights>
+                <dc:publisher>
+                    <cc:Agent>
+                        <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
+                    </cc:Agent>
+                </dc:publisher>
+                <dc:language>en-GB</dc:language>
+                <cc:license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
+            </cc:Work>
+            <cc:License rdf:about="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction" />
+                <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution" />
+                <cc:requires rdf:resource="http://creativecommons.org/ns#Notice" />
+                <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution" />
+                <cc:prohibits rdf:resource="http://creativecommons.org/ns#CommercialUse" />
+                <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+                <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+            </cc:License>
+        </rdf:RDF>
+    </metadata>
+    <desc id="desc">Traditional-style 52-card German SVG deck.</desc>
+  <defs>
+    <linearGradient id="paperGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fffdf6"/>
+      <stop offset="100%" stop-color="#f5eddc"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.18"/>
+    </filter>
+    <g id="suitSymbols">
+      <g id="suit-eichel">
+        <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M50 18 C43 9 33 7 24 10" stroke="#5a6a2f" stroke-width="4"/>
+            <path d="M50 28 C37 28 28 37 28 48 C28 61 42 80 50 84 C58 80 72 61 72 48 C72 37 63 28 50 28 Z" fill="#8a5527" stroke="#4d2e13" stroke-width="3"/>
+            <path d="M50 33 C44 39 42 45 42 52 C42 66 46 73 50 76 C54 73 58 66 58 52 C58 45 56 39 50 33 Z" fill="#b97a43" opacity="0.55"/>
+            <path d="M25 38 C25 20 36 16 50 16 C64 16 75 20 75 38 C75 42 69 45 50 45 C31 45 25 42 25 38 Z" fill="#7a8a4a" stroke="#4d2e13" stroke-width="3"/>
+            <path d="M31 35 Q35 39 39 35 M41 35 Q45 39 49 35 M51 35 Q55 39 59 35 M61 35 Q65 39 69 35" stroke="#5a6a2f" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="suit-blatt">
+        <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M50 5 C72 15 88 37 86 55 C84 72 70 85 50 87 C30 85 16 72 14 55 C12 37 28 15 50 5 Z" fill="#2d7f3b" stroke="#1d5627" stroke-width="3"/>
+            <path d="M50 87 C49 90 48 93 48 94" stroke="#1d5627" stroke-width="3" stroke-linecap="round"/>
+            <path d="M50 12.5 C50 36.5 50 59.5 50 80.5" stroke="#d8f0d1" stroke-width="3"/>
+            <path d="M50 28.5 C55 26.5 60 24.5 62 18.5" stroke="#d8f0d1" stroke-width="2.5"/>
+            <path d="M50 40.5 C60 38.5 68 35.5 70 27.5" stroke="#d8f0d1" stroke-width="2.5"/>
+            <path d="M50 52.5 C39 49.5 31 43.5 26 36.5" stroke="#d8f0d1" stroke-width="2.5"/>
+            <path d="M50 64.5 C39 62.5 28 55.5 21 45.5" stroke="#d8f0d1" stroke-width="2.5"/>
+        </g>
+      </g>
+      <g id="suit-herz">
+        <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M50 86 C24 66 10 51 10 33 C10 20 20 10 33 10 C41 10 47 14 50 20 C53 14 59 10 67 10 C80 10 90 20 90 33 C90 51 76 66 50 86 Z" fill="#c62839" stroke="#8e1022" stroke-width="3"/>
+            <path d="M34 22 C27 22 22 27 22 34" stroke="#f1a1aa" stroke-width="3"/>
+        </g>
+      </g>
+      <g id="suit-schellen">
+        <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="44" y="12" width="12" height="10" rx="3" fill="#f0c13a" stroke="#9e7300" stroke-width="3"/>
+            <rect x="50" y="12" width="6" height="10" rx="3" fill="#d4af37" opacity="0.5"/>
+            <rect x="44" y="12" width="12" height="10" rx="3" fill="none" stroke="#9e7300" stroke-width="3"/>
+            <path d="M50 22 C66 22 80 35 80 56 C80 63 74 70 66 74 C61 76 56 78 50 78 C44 78 39 76 34 74 C26 70 20 63 20 56 C20 35 34 22 50 22 Z" fill="#f2ca52" stroke="#9e7300" stroke-width="3"/>
+            <path d="M50 22 C66 22 80 35 80 56 C80 63 74 70 66 74 C61 76 56 78 50 78 C50 78 50 22 50 22 Z" fill="#d4af37" opacity="0.4"/>
+            <path d="M50 22 C66 22 80 35 80 56 C80 63 74 70 66 74 C61 76 56 78 50 78 C44 78 39 76 34 74 C26 70 20 63 20 56 C20 35 34 22 50 22 Z" fill="none" stroke="#9e7300" stroke-width="3"/>
+            <path d="M30 57 H70" stroke="#b78908" stroke-width="3"/>
+            <circle cx="50" cy="66" r="6" fill="#9e7300"/>
+            <path d="M36 83 H64" stroke="#9e7300" stroke-width="4"/>
+            <path d="M50 76 V66" stroke="#9e7300" stroke-width="4"/>
+        </g>
+      </g>
+    </g>
+  </defs>
+    <rect x="13" y="13" width="724" height="1174" rx="36" fill="url(#paperGradient)"/>
+  <rect x="60" y="60" width="630" height="1080" rx="28" fill="none" stroke="#2d7f3b" stroke-width="8"/>
+    <line x1="60" y1="600" x2="690" y2="600" stroke="#2d7f3b" stroke-width="8"/>
+  <ellipse cx="375" cy="600" rx="160" ry="240" fill="#fbf6ec" stroke="#2f6f38" stroke-width="4"/>
+  <g transform="translate(375 600) rotate(10) scale(5) translate(-50 -50)">
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M50 5 C72 15 88 37 86 55 C84 72 70 85 50 87 C30 85 16 72 14 55 C12 37 28 15 50 5 Z" fill="#2d7f3b" stroke="#1d5627" stroke-width="3"/>
+    <path d="M50 87 C49 90 48 93 48 94" stroke="#1d5627" stroke-width="3" stroke-linecap="round"/>
+    <path d="M50 12.5 C50 36.5 50 59.5 50 80.5" stroke="#d8f0d1" stroke-width="3"/>
+    <path d="M50 28.5 C55 26.5 60 24.5 62 18.5" stroke="#d8f0d1" stroke-width="2.5"/>
+    <path d="M50 40.5 C60 38.5 68 35.5 70 27.5" stroke="#d8f0d1" stroke-width="2.5"/>
+    <path d="M50 52.5 C39 49.5 31 43.5 26 36.5" stroke="#d8f0d1" stroke-width="2.5"/>
+    <path d="M50 64.5 C39 62.5 28 55.5 21 45.5" stroke="#d8f0d1" stroke-width="2.5"/>
+</g>
+</g>
+    <rect x="13" y="13" width="724" height="1174" rx="36" fill="none" stroke="#2a241c" stroke-opacity="0.32" stroke-width="5"/>
+</svg>

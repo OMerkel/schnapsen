@@ -22,7 +22,7 @@ Multiple Given/When/Then statements may exist per Feature/Scenario.
 
 ### Scenario: Create an Individual Card
 
-Feature: Card Representation (FR-???)
+Feature: Card Representation (FR-CRD-003, FR-CRD-007)
 
 Given a card with suit "Eichel", rank "Ass", and value 11
 When the card is created
@@ -30,7 +30,7 @@ Then the card should have suit "Eichel", rank "Ass", and value 11
 
 ### Scenario: Card Immutability
 
-Feature: Immutable Card Implementation (FR-???, NFR-???)
+Feature: Immutable Card Implementation (FR-CRD-007)
 
 Given a card instance
 When attempting to modify the card's value
@@ -38,7 +38,7 @@ Then the operation should fail (freeze prevents modification)
 
 ### Scenario: Card Equality Comparison
 
-Feature: Card Equality (FR-???)
+Feature: Card Equality (FR-CRD-003)
 
 Given two cards with identical suit and rank ("Eichel", "Ass")
 When comparing them for equality
@@ -98,6 +98,8 @@ When the user presses the `Esc` key
 Then the side bar menu closes
 And focus returns to the hamburger toggle
 
+Test mapping: `schnapsen-ui-shell.test.js` - `closes side menu on Escape and restores focus`
+
 ### Scenario: Close Menu on Outside Click
 
 Feature: Hamburger Menu Dismissal (FR-UI-H1-003)
@@ -107,6 +109,8 @@ And the side panel overlay is visible
 When the user clicks outside the menu on the overlay
 Then the side bar menu closes
 And focus returns to the hamburger toggle
+
+Test mapping: `schnapsen-ui-shell.test.js` - `closes side menu on overlay click and restores focus`
 
 ### Scenario: Menu Item Semantics and Active Indication
 
@@ -134,6 +138,270 @@ Feature: Hamburger Menu Accessibility (FR-UI-H1-005)
 Given the side bar menu is open with focus inside
 When the user closes the menu (via Esc, item selection, or outside click)
 Then focus returns to the hamburger toggle
+
+### Scenario: Options Overlay Controls Availability
+
+Feature: Game Modes and Options (FR-OPT-001)
+
+Given the application is initialized
+When the user opens the options overlay
+Then the options view is visible
+And the deck variant control exists
+And both player type controls exist
+And AI level is disabled for a human player slot
+
+Test mapping: `schnapsen-ui-shell.test.js` - `renders options controls for deck and both players`
+
+### Scenario: Resume Persisted Match State on App Launch
+
+Feature: Persistence and Resume (FR-PRS-003)
+
+Given a previously persisted match state
+When the app initializes with persisted state available
+Then the saved game is resumed in the rendered UI
+
+Test mapping: `schnapsen-ui-shell.test.js` - `resumes persisted match state on init`
+
+### Scenario: Open Talon Visual Stack
+
+Feature: Talon and Atout Visual State (FR-UIR-005)
+
+Given a hand in open talon state
+When the board is rendered
+Then the talon is shown as a face-down pile
+And the talon partly covers the open Atout card
+And the Atout suit symbol remains visible
+
+Test mapping: `schnapsen-ui-shell.test.js` - `renders open talon with partial Atout overlap`
+
+### Scenario: Closed Talon Visual Stack
+
+Feature: Talon and Atout Visual State (FR-UIR-006)
+
+Given a hand in closed talon state
+When the board is rendered
+Then the Atout is shown as face-down card
+And the Atout layer appears above the talon layer
+
+Test mapping: `schnapsen-ui-shell.test.js` - `renders closed talon with Atout backface above talon`
+
+### Scenario: Exhausted Talon Visual State
+
+Feature: Talon and Atout Visual State (FR-UIR-007)
+
+Given a hand with exhausted talon
+When the board is rendered
+Then talon and Atout card stack are hidden
+And the Atout suit symbol remains visible
+And only hand cards remain as playable card source
+
+Test mapping: `schnapsen-ui-shell.test.js` - `hides talon and Atout visuals when talon is exhausted`
+
+### Scenario: Final Open Talon Draw Distribution
+
+Feature: Open Talon Draw Order and Exhaustion (FR-OPN-008, FR-STR-006)
+
+Given the talon has exactly one face-down card plus the open Atout card
+And a trick is completed while talon remains open
+When post-trick draw is resolved
+Then the trick winner receives the final face-down talon card
+And the trick loser receives the open Atout card
+And talon cards on table are exhausted afterward
+And strict play applies from the next trick onward
+
+Test mapping: `schnapsen-deck-and-dealing.test.js` - `hands out final talon card then open Atout on last open draw`
+Test mapping: `schnapsen-engine.test.js` - `gives winner the final facedown talon card and loser the open Atout`
+Test mapping: `schnapsen-rules.test.js` - `uses strict play after talon exhausts without close`
+
+### Scenario: Swap Open Atout with Lowest Atout Card
+
+Feature: Talon Swap Action (FR-TAL-006)
+
+Given the talon is open
+And the active leader holds the lowest Atout card for the deck variant
+And more than two cards remain in talon
+When the player performs the Atout swap action
+Then the open Atout card is moved to the player's hand
+And the previously held lowest Atout card becomes the new open Atout card
+
+Test mapping: `schnapsen-engine.test.js` - `offers and executes Atout swap in 24-card mode`
+Test mapping: `schnapsen-engine.test.js` - `allows Atout swap with Unter in 20-card mode`
+
+### Scenario: No Atout Swap after Talon Close
+
+Feature: Talon Swap Action (FR-TAL-007)
+
+Given the talon is closed
+When the active player attempts the Atout swap action
+Then the action is rejected as illegal
+
+Test mapping: `schnapsen-engine.test.js` - `rejects Atout swap when talon is closed`
+Test mapping: `schnapsen-rules.test.js` - `returns no swap card when talon is closed`
+Test mapping: `schnapsen-ui-shell.test.js` - `enables Atout swap button only for legal swap state`
+
+### Scenario: Explicit Marriage Announcement Required
+
+Feature: Marriage Scoring (FR-MRG-009, FR-MRG-011)
+
+Given the active leader holds König and Ober of the same suit
+When the player selects announce-marriage for that suit
+Then the action is accepted without playing a trick card yet
+And the next legal lead is restricted to König or Ober of the announced suit
+And marriage points are applied immediately only if the announcer already has at least one won trick
+And otherwise marriage points are deferred until the announcer wins the first trick
+
+Test mapping: `schnapsen-engine.test.js` - `offers explicit marriage announce action by suit`
+Test mapping: `schnapsen-ai.test.js` - `medium AI explicitly announces marriage when available`
+Test mapping: `schnapsen-ai.test.js` - `plays matching König or Ober after announcing marriage`
+
+### Scenario: Immediate Declare-66 after Marriage Announcement
+
+Feature: Marriage Scoring (FR-MRG-007, FR-MRG-012)
+
+Given the active leader already has at least one won trick
+And announce-marriage is accepted on lead
+When immediate marriage points raise the leader to 66 or more
+Then declare-66 is legal immediately after announce-marriage
+And the hand may end without leading a marriage card
+
+Test mapping: `schnapsen-engine.test.js` - `allows declare-66 right after marriage announcement when points become sufficient`
+
+### Scenario: Two Marriages Require Separate Leads
+
+Feature: Marriage Scoring (FR-MRG-013, FR-MRG-014)
+
+Given the active leader holds two marriageable suits
+When the leader announces one marriage on the current lead
+Then no second announce-marriage action is accepted for that same lead
+And the leader must finish that trick with the announced King/Ober
+When the leader wins the trick and leads again
+Then a second marriage announcement for the other suit becomes legal
+
+Test mapping: `schnapsen-engine.test.js` - `allows scoring two marriages in one hand only across two leads`
+Test mapping: `schnapsen-ui-shell.test.js` - `hides alternate marriage announce options once one marriage is prepared`
+
+### Scenario: Ordered Pre-Lead Workflow swap-close-marriage-declare
+
+Feature: Pre-Lead Action Ordering Edge Case (FR-END-011)
+
+Given the active leader is on lead with open talon
+And the leader can legally swap Atout
+And the leader can legally close talon
+And an Atout marriage is available with immediate marriage scoring
+When the leader performs actions in order `swap-atout`, `close-talon`, `announce-marriage`, `declare-66`
+Then each action is accepted in that order
+And the hand ends immediately on `declare-66`
+
+Test mapping: `schnapsen-engine.test.js` - `allows ordered sequence swap-close-marriage-declare66 on lead`
+
+### Scenario: Close Talon after Marriage Announcement Preparation
+
+Feature: Pre-Lead Action Ordering Edge Case (FR-TAL-008)
+
+Given the active leader is on lead with open talon
+And the leader performs `announce-marriage`
+And no lead card has been played yet
+When the leader performs `close-talon`
+Then `close-talon` is accepted
+And pending marriage intent remains active
+And the next legal actions include either `declare-66` or leading the announced King/Ober
+
+Test mapping: `schnapsen-engine.test.js` - `allows close-talon after marriage announce and keeps pending marriage intent`
+Test mapping: `schnapsen-ui-shell.test.js` - `allows closing talon after marriage announcement is prepared`
+
+### Scenario: Missed Marriage Announcement Gives No Points
+
+Feature: Marriage Scoring (FR-MRG-010)
+
+Given the active leader holds a valid marriage pair
+When the player leads König or Ober without announce-marriage action
+Then no marriage points are awarded for that trick
+
+Test mapping: `schnapsen-engine.test.js` - `does not score marriage if player skips announcement`
+
+### Scenario: 66 Declaration Is a Lead Action
+
+Feature: Hand Flow and Resolution (FR-END-001, FR-END-009)
+
+Given the current player is active leader and no card was played in the current trick
+When the player chooses the declare-66 action
+Then the declaration is accepted as a legal hand-ending claim attempt
+
+Given the current player is not on lead
+When the player attempts declare-66
+Then the action is rejected as illegal
+
+Test mapping: `schnapsen-engine.test.js` - `offers declare-66 in legal actions on lead regardless of points`
+Test mapping: `schnapsen-engine.test.js` - `rejects declare-66 when not on lead`
+Test mapping: `schnapsen-ai.test.js` - `does not declare 66 when not on lead`
+
+### Scenario: Wrong 66 Declaration Penalty
+
+Feature: Hand Flow and Resolution (FR-END-006, FR-END-007, FR-END-010)
+
+Given the active leader declares 66 with fewer than 66 points
+When the declaration is resolved
+Then the declarer loses the hand immediately
+And opponent receives 2 game points as standard
+
+Given the active leader has won no trick and declares 66 with fewer than 66 points
+When the declaration is resolved
+Then opponent receives 3 game points
+
+Test mapping: `schnapsen-engine.test.js` - `penalizes wrong declare-66 with two game points`
+Test mapping: `schnapsen-engine.test.js` - `penalizes wrong declare-66 with three game points when Schwarz`
+
+### Scenario: Closed Talon Failure and Last-Trick Success
+
+Feature: Hand Flow and Resolution (FR-END-008, FR-TAL-005)
+
+Given a player has closed talon
+When hand resolution ends without closer reaching 66 and without closer winning last trick
+Then closer loses and opponent receives penalty game points per failed-claim rule (2 or 3)
+
+Given a player has closed talon
+When all remaining cards are played without a correct 66 declaration by closer
+Then closer loses the hand
+
+Test mapping: `schnapsen-engine.test.js` - `handles talon close failure scoring path`
+Test mapping: `schnapsen-engine.test.js` - `handles talon close success path by last trick win`
+
+### Scenario: No Claim Path Uses Last Trick for One Point
+
+Feature: Hand Flow and Resolution (FR-END-002, FR-END-003, FR-END-004)
+
+Given neither player declares 66 before all cards are played
+When the final trick is resolved
+Then the final trick winner wins the hand
+And the final trick winner receives exactly 1 game point
+And card-point totals do not increase hand scoring beyond that one point in this no-claim path
+
+Test mapping: `schnapsen-engine.test.js` - `finishes by final trick path with fixed one-point last-trick win`
+
+### Scenario: Fixed South and North Seat Layout with Active Visibility
+
+Feature: UI and Rules Visibility (FR-UIR-009, FR-UIR-010, FR-UIR-013)
+
+Given Player South is the south seat and Player North is the north seat
+When turn ownership changes between seats
+Then seat positions stay fixed on board
+And only the active seat hand is shown face-up
+And the inactive seat hand is shown by backfaces
+And seat labels display Player/AI plus South or North
+
+Test mapping: `schnapsen-ui-shell.test.js` - `shows only active seat hand face-up while keeping north/south positions fixed`
+Test mapping: `schnapsen-ui-shell.test.js` - `renders options controls for deck and both players`
+
+### Scenario: Action Panel Targets Active Player
+
+Feature: UI and Rules Visibility (FR-UIR-011, FR-UIR-012)
+
+Given a seat is currently active
+When the user triggers an action button
+Then the action is dispatched for the active player index
+And inactive player state is not directly mutated by that control
+
+Test mapping: `schnapsen-ui-shell.test.js` - `dispatches close-talon for the active player`
 
 ### Scenario: Responsive Menu Behavior on Mobile
 
@@ -330,3 +598,16 @@ And the announcement uses polite politeness (does not interrupt)
 Given the count is 50 and displays as "50"
 When the count increases to 120 and displays as "99+"
 Then the screen reader announces "Game notifications 99 plus" (or equivalent)
+
+---
+
+## Canonical Synchronization Source
+
+The authoritative, test-derived synchronization list for current scenarios and
+Req IDs is maintained in [doc/gherkin-sync-section.md](gherkin-sync-section.md).
+
+Use that file as the canonical bridge between:
+
+- test scenario comments in `javascript/html5/src/test/*.test.js`
+- requirement IDs in [doc/requirements.md](requirements.md)
+- scenario/feature wording in this document

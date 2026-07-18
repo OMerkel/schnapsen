@@ -9,7 +9,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <meta name="apple-mobile-web-app-title" content="Schnapsen" />
     <link rel="icon" href="img/icons/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="img/icons/Schnapsen128.png" />
+    <link rel="apple-touch-icon" href="img/icons/Schnapsen90.png" />
     <link rel="manifest" href="manifest.json" />
     <meta name="AUTHOR" content="Oliver Merkel" />
     <meta name="COPYRIGHT" content="Oliver Merkel" />
@@ -29,7 +29,7 @@
         </svg>
       </button>
       <h1>Schnapsen</h1>
-      <div id="game-badge" aria-label="Game status" aria-live="polite"></div>
+      <div id="game-badge" role="status" aria-live="polite" aria-atomic="true"></div>
     </div>
 
     <!-- Side Panel Overlay -->
@@ -58,12 +58,23 @@
     <!-- Rules Page -->
     <div id="overlay-rules" class="overlay-page" role="dialog" aria-modal="true" aria-label="Rules">
       <div class="overlay-content">
-        <h2>📖 How to Play — Scopa</h2>
+        <h2>📖 How to Play — Schnapsen</h2>
         <h3>Objective</h3>
-        <p>Reach the target score and lead by 2 points to win (default target: 7 points).</p>
-        <h3>Scoring per Round</h3>
+        <p>Build card points through tricks and marriages, then win hands by correctly declaring 66 on lead or by winning the full-play finish.</p>
+        <h3>Tricks and Talon</h3>
+        <p>While the talon is open, any card may be played. Once it is exhausted or closed, strict follow-suit and Atout rules apply.</p>
+        <p>Open talon bonus action: The active leader may swap the open Atout with the lowest Atout from hand (24-card: 9, 20-card: Unter) while more than two cards remain in talon. This is not allowed after talon close.</p>
+        <p>Marriage scoring is explicit: announce the suit first, then lead König or Ober of that suit. If you skip the announcement, you score no marriage points.</p>
+        <p>Marriage points count only after the announcing player wins at least one trick in the hand: immediate if a trick is already won, otherwise deferred until the first won trick. If immediate marriage points bring the active leader to 66 or more, declare-66 is legal immediately after the announcement.</p>
+        <p>Seat layout is fixed: Player South remains at the south hand and Player North remains at the north hand. Only the active hand is shown face-up; inactive hand cards stay as backfaces.</p>
+        <p>All action buttons and card clicks target the currently active player.</p>
+        <p>Visual states: Open talon is shown crosswise over the open Atout card (partly visible). Closed talon keeps the stack visible with a face-down Atout above talon. Exhausted talon hides both talon and Atout stack.</p>
+        <p>Terminology: This app uses <strong>Atout</strong> as the preferred label for the suit with beating priority.</p>
         <h3>Win Condition</h3>
-        <p>Default win condition is first player to reach at least 7 points with a 2-point lead. Alternate targets are configurable in game settings.</p>
+        <p>Declare-66 is a lead action: only the active leader may claim 66 before a trick card is played. A correct claim (66+) wins immediately.</p>
+        <p>A wrong claim loses immediately: opponent gets 2 game points, or 3 if claimant has won no trick (Schwarz). The same 2/3 penalty applies when a player closes talon and then fails to declare 66 before cards run out.</p>
+        <p>If nobody claims 66 and cards run out, the last trick winner wins the hand for exactly 1 game point, regardless of card-point totals.</p>
+        <p>Default match target is first to 7 Bummerl points. Alternate deck variants and player types are configurable in game settings.</p>
         <button type="button" class="overlay-close-btn" data-close-overlay="overlay-rules">OK</button>
       </div>
     </div>
@@ -95,7 +106,7 @@
         <h3>License</h3>
 
         <figure class="diagram" style="float:right;margin-left:12px;width:35%;">
-          <img src="img/oliver_card_playing.jpg" alt="Oliver Merkel" />
+          <img src="img/oliver_vienna_schnapsen.jpg" alt="Oliver Merkel" />
           <figcaption>
             Oliver Merkel,
             <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">cc-by-nc-nd 4.0</a>.
