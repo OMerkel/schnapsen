@@ -22,7 +22,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>Ober von Blatt</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -109,7 +109,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
     <line x1="60" y1="600" x2="690" y2="600" stroke="#2d7f3b" stroke-width="8"/>
   <g transform="translate(0 -270)">
     <ellipse cx="375" cy="600" rx="160" ry="240" fill="#fbf6ec" stroke="#2f6f38" stroke-width="4"/>
-    <text x="375" y="695" text-anchor="middle" dominant-baseline="middle" font-size="460">&#x1F3C7;</text>
+    <text x="375" y="650" text-anchor="middle" dominant-baseline="middle" font-size="450">&#x1F3C7;</text>
     <g transform="translate(120 400) rotate(-30) scale(2) translate(-50 -50)">
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
     <path d="M50 5 C72 15 88 37 86 55 C84 72 70 85 50 87 C30 85 16 72 14 55 C12 37 28 15 50 5 Z" fill="#2d7f3b" stroke="#1d5627" stroke-width="3"/>
@@ -125,7 +125,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
     <g transform="translate(375 600) rotate(180) translate(-375 -600)">
           <g transform="translate(0 -270)">
     <ellipse cx="375" cy="600" rx="160" ry="240" fill="#fbf6ec" stroke="#2f6f38" stroke-width="4"/>
-    <text x="375" y="695" text-anchor="middle" dominant-baseline="middle" font-size="460">&#x1F3C7;</text>
+    <text x="375" y="650" text-anchor="middle" dominant-baseline="middle" font-size="450">&#x1F3C7;</text>
     <g transform="translate(120 400) rotate(-30) scale(2) translate(-50 -50)">
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
     <path d="M50 5 C72 15 88 37 86 55 C84 72 70 85 50 87 C30 85 16 72 14 55 C12 37 28 15 50 5 Z" fill="#2d7f3b" stroke="#1d5627" stroke-width="3"/>

@@ -22,7 +22,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>König of Spades</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -98,7 +98,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
     <line x1="60" y1="600" x2="690" y2="600" stroke="#222222" stroke-width="8"/>
   <g transform="translate(0 -270)">
     <ellipse cx="375" cy="600" rx="160" ry="240" fill="#fbf6ec" stroke="#1a1a1a" stroke-width="4"/>
-    <text x="375" y="695" text-anchor="middle" dominant-baseline="middle" font-size="460">&#x1FAC5;&#x1F3FB;</text>
+    <text x="375" y="650" text-anchor="middle" dominant-baseline="middle" font-size="450">&#x1FAC5;&#x1F3FB;</text>
     <g transform="translate(150 430) rotate(-30) scale(2.4) translate(-50 -50)">
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
     <path
@@ -112,7 +112,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
     <g transform="translate(375 600) rotate(180) translate(-375 -600)">
           <g transform="translate(0 -270)">
     <ellipse cx="375" cy="600" rx="160" ry="240" fill="#fbf6ec" stroke="#1a1a1a" stroke-width="4"/>
-    <text x="375" y="695" text-anchor="middle" dominant-baseline="middle" font-size="460">&#x1FAC5;&#x1F3FB;</text>
+    <text x="375" y="650" text-anchor="middle" dominant-baseline="middle" font-size="450">&#x1FAC5;&#x1F3FB;</text>
     <g transform="translate(150 430) rotate(-30) scale(2.4) translate(-50 -50)">
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
     <path

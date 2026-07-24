@@ -22,7 +22,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>Cards German Double Contact Sheet</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -65,7 +65,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>Ass von Eichel</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -173,7 +173,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>10 von Eichel</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -455,7 +455,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>König von Eichel</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -542,7 +542,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
     <line x1="60" y1="600" x2="690" y2="600" stroke="#8a5527" stroke-width="8"/>
   <g transform="translate(0 -270)">
     <ellipse cx="375" cy="600" rx="160" ry="240" fill="#fbf6ec" stroke="#5a6a2f" stroke-width="4"/>
-    <text x="375" y="695" text-anchor="middle" dominant-baseline="middle" font-size="460">&#x1FAC5;&#x1F3FB;</text>
+    <text x="375" y="650" text-anchor="middle" dominant-baseline="middle" font-size="450">&#x1FAC5;&#x1F3FB;</text>
     <g transform="translate(150 430) rotate(-30) scale(2.4) translate(-50 -50)">
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
     <path d="M50 18 C43 9 33 7 24 10" stroke="#5a6a2f" stroke-width="4"/>
@@ -556,7 +556,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
     <g transform="translate(375 600) rotate(180) translate(-375 -600)">
           <g transform="translate(0 -270)">
     <ellipse cx="375" cy="600" rx="160" ry="240" fill="#fbf6ec" stroke="#5a6a2f" stroke-width="4"/>
-    <text x="375" y="695" text-anchor="middle" dominant-baseline="middle" font-size="460">&#x1FAC5;&#x1F3FB;</text>
+    <text x="375" y="650" text-anchor="middle" dominant-baseline="middle" font-size="450">&#x1FAC5;&#x1F3FB;</text>
     <g transform="translate(150 430) rotate(-30) scale(2.4) translate(-50 -50)">
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
     <path d="M50 18 C43 9 33 7 24 10" stroke="#5a6a2f" stroke-width="4"/>
@@ -581,7 +581,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>Ober von Eichel</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -668,7 +668,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
     <line x1="60" y1="600" x2="690" y2="600" stroke="#8a5527" stroke-width="8"/>
   <g transform="translate(0 -270)">
     <ellipse cx="375" cy="600" rx="160" ry="240" fill="#fbf6ec" stroke="#5a6a2f" stroke-width="4"/>
-    <text x="375" y="695" text-anchor="middle" dominant-baseline="middle" font-size="460">&#x1F3C7;</text>
+    <text x="375" y="650" text-anchor="middle" dominant-baseline="middle" font-size="450">&#x1F3C7;</text>
     <g transform="translate(120 400) rotate(-30) scale(2) translate(-50 -50)">
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
     <path d="M50 18 C43 9 33 7 24 10" stroke="#5a6a2f" stroke-width="4"/>
@@ -682,7 +682,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
     <g transform="translate(375 600) rotate(180) translate(-375 -600)">
           <g transform="translate(0 -270)">
     <ellipse cx="375" cy="600" rx="160" ry="240" fill="#fbf6ec" stroke="#5a6a2f" stroke-width="4"/>
-    <text x="375" y="695" text-anchor="middle" dominant-baseline="middle" font-size="460">&#x1F3C7;</text>
+    <text x="375" y="650" text-anchor="middle" dominant-baseline="middle" font-size="450">&#x1F3C7;</text>
     <g transform="translate(120 400) rotate(-30) scale(2) translate(-50 -50)">
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
     <path d="M50 18 C43 9 33 7 24 10" stroke="#5a6a2f" stroke-width="4"/>
@@ -707,7 +707,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>Unter von Eichel</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -794,7 +794,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
     <line x1="60" y1="600" x2="690" y2="600" stroke="#8a5527" stroke-width="8"/>
   <g transform="translate(0 -270)">
     <ellipse cx="375" cy="600" rx="160" ry="240" fill="#fbf6ec" stroke="#5a6a2f" stroke-width="4"/>
-    <text x="375" y="695" text-anchor="middle" dominant-baseline="middle" font-size="460">&#x1F472;</text>
+    <text x="375" y="650" text-anchor="middle" dominant-baseline="middle" font-size="450">&#x1F472;</text>
     <g transform="translate(150 760) rotate(-30) scale(2.4) translate(-50 -50)">
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
     <path d="M50 18 C43 9 33 7 24 10" stroke="#5a6a2f" stroke-width="4"/>
@@ -808,7 +808,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
     <g transform="translate(375 600) rotate(180) translate(-375 -600)">
           <g transform="translate(0 -270)">
     <ellipse cx="375" cy="600" rx="160" ry="240" fill="#fbf6ec" stroke="#5a6a2f" stroke-width="4"/>
-    <text x="375" y="695" text-anchor="middle" dominant-baseline="middle" font-size="460">&#x1F472;</text>
+    <text x="375" y="650" text-anchor="middle" dominant-baseline="middle" font-size="450">&#x1F472;</text>
     <g transform="translate(150 760) rotate(-30) scale(2.4) translate(-50 -50)">
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
     <path d="M50 18 C43 9 33 7 24 10" stroke="#5a6a2f" stroke-width="4"/>
@@ -833,7 +833,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>9 von Eichel</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -1097,7 +1097,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>8 von Eichel</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -1343,7 +1343,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>7 von Eichel</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -1571,7 +1571,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>6 von Eichel</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -1781,7 +1781,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>5 von Eichel</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -1973,7 +1973,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>4 von Eichel</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -2147,7 +2147,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>3 von Eichel</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -2303,7 +2303,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>2 von Eichel</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -2441,7 +2441,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>Ass von Blatt</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -2551,7 +2551,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>10 von Blatt</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -2873,7 +2873,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>König von Blatt</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -2960,7 +2960,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
     <line x1="60" y1="600" x2="690" y2="600" stroke="#2d7f3b" stroke-width="8"/>
   <g transform="translate(0 -270)">
     <ellipse cx="375" cy="600" rx="160" ry="240" fill="#fbf6ec" stroke="#2f6f38" stroke-width="4"/>
-    <text x="375" y="695" text-anchor="middle" dominant-baseline="middle" font-size="460">&#x1FAC5;&#x1F3FB;</text>
+    <text x="375" y="650" text-anchor="middle" dominant-baseline="middle" font-size="450">&#x1FAC5;&#x1F3FB;</text>
     <g transform="translate(150 430) rotate(-30) scale(2.4) translate(-50 -50)">
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
     <path d="M50 5 C72 15 88 37 86 55 C84 72 70 85 50 87 C30 85 16 72 14 55 C12 37 28 15 50 5 Z" fill="#2d7f3b" stroke="#1d5627" stroke-width="3"/>
@@ -2976,7 +2976,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
     <g transform="translate(375 600) rotate(180) translate(-375 -600)">
           <g transform="translate(0 -270)">
     <ellipse cx="375" cy="600" rx="160" ry="240" fill="#fbf6ec" stroke="#2f6f38" stroke-width="4"/>
-    <text x="375" y="695" text-anchor="middle" dominant-baseline="middle" font-size="460">&#x1FAC5;&#x1F3FB;</text>
+    <text x="375" y="650" text-anchor="middle" dominant-baseline="middle" font-size="450">&#x1FAC5;&#x1F3FB;</text>
     <g transform="translate(150 430) rotate(-30) scale(2.4) translate(-50 -50)">
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
     <path d="M50 5 C72 15 88 37 86 55 C84 72 70 85 50 87 C30 85 16 72 14 55 C12 37 28 15 50 5 Z" fill="#2d7f3b" stroke="#1d5627" stroke-width="3"/>
@@ -3003,7 +3003,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>Ober von Blatt</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -3090,7 +3090,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
     <line x1="60" y1="600" x2="690" y2="600" stroke="#2d7f3b" stroke-width="8"/>
   <g transform="translate(0 -270)">
     <ellipse cx="375" cy="600" rx="160" ry="240" fill="#fbf6ec" stroke="#2f6f38" stroke-width="4"/>
-    <text x="375" y="695" text-anchor="middle" dominant-baseline="middle" font-size="460">&#x1F3C7;</text>
+    <text x="375" y="650" text-anchor="middle" dominant-baseline="middle" font-size="450">&#x1F3C7;</text>
     <g transform="translate(120 400) rotate(-30) scale(2) translate(-50 -50)">
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
     <path d="M50 5 C72 15 88 37 86 55 C84 72 70 85 50 87 C30 85 16 72 14 55 C12 37 28 15 50 5 Z" fill="#2d7f3b" stroke="#1d5627" stroke-width="3"/>
@@ -3106,7 +3106,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
     <g transform="translate(375 600) rotate(180) translate(-375 -600)">
           <g transform="translate(0 -270)">
     <ellipse cx="375" cy="600" rx="160" ry="240" fill="#fbf6ec" stroke="#2f6f38" stroke-width="4"/>
-    <text x="375" y="695" text-anchor="middle" dominant-baseline="middle" font-size="460">&#x1F3C7;</text>
+    <text x="375" y="650" text-anchor="middle" dominant-baseline="middle" font-size="450">&#x1F3C7;</text>
     <g transform="translate(120 400) rotate(-30) scale(2) translate(-50 -50)">
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
     <path d="M50 5 C72 15 88 37 86 55 C84 72 70 85 50 87 C30 85 16 72 14 55 C12 37 28 15 50 5 Z" fill="#2d7f3b" stroke="#1d5627" stroke-width="3"/>
@@ -3133,7 +3133,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>Unter von Blatt</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -3220,7 +3220,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
     <line x1="60" y1="600" x2="690" y2="600" stroke="#2d7f3b" stroke-width="8"/>
   <g transform="translate(0 -270)">
     <ellipse cx="375" cy="600" rx="160" ry="240" fill="#fbf6ec" stroke="#2f6f38" stroke-width="4"/>
-    <text x="375" y="695" text-anchor="middle" dominant-baseline="middle" font-size="460">&#x1F472;</text>
+    <text x="375" y="650" text-anchor="middle" dominant-baseline="middle" font-size="450">&#x1F472;</text>
     <g transform="translate(150 760) rotate(-30) scale(2.4) translate(-50 -50)">
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
     <path d="M50 5 C72 15 88 37 86 55 C84 72 70 85 50 87 C30 85 16 72 14 55 C12 37 28 15 50 5 Z" fill="#2d7f3b" stroke="#1d5627" stroke-width="3"/>
@@ -3236,7 +3236,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
     <g transform="translate(375 600) rotate(180) translate(-375 -600)">
           <g transform="translate(0 -270)">
     <ellipse cx="375" cy="600" rx="160" ry="240" fill="#fbf6ec" stroke="#2f6f38" stroke-width="4"/>
-    <text x="375" y="695" text-anchor="middle" dominant-baseline="middle" font-size="460">&#x1F472;</text>
+    <text x="375" y="650" text-anchor="middle" dominant-baseline="middle" font-size="450">&#x1F472;</text>
     <g transform="translate(150 760) rotate(-30) scale(2.4) translate(-50 -50)">
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
     <path d="M50 5 C72 15 88 37 86 55 C84 72 70 85 50 87 C30 85 16 72 14 55 C12 37 28 15 50 5 Z" fill="#2d7f3b" stroke="#1d5627" stroke-width="3"/>
@@ -3263,7 +3263,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>9 von Blatt</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -3563,7 +3563,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>8 von Blatt</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -3841,7 +3841,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>7 von Blatt</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -4097,7 +4097,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>6 von Blatt</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -4331,7 +4331,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>5 von Blatt</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -4543,7 +4543,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>4 von Blatt</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -4733,7 +4733,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>3 von Blatt</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -4901,7 +4901,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>2 von Blatt</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -5047,7 +5047,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>Ass von Herz</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -5152,7 +5152,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>10 von Herz</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -5374,7 +5374,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>König von Herz</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -5461,7 +5461,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
     <line x1="60" y1="600" x2="690" y2="600" stroke="#c62839" stroke-width="8"/>
   <g transform="translate(0 -270)">
     <ellipse cx="375" cy="600" rx="160" ry="240" fill="#fbf6ec" stroke="#a61d2a" stroke-width="4"/>
-    <text x="375" y="695" text-anchor="middle" dominant-baseline="middle" font-size="460">&#x1FAC5;&#x1F3FB;</text>
+    <text x="375" y="650" text-anchor="middle" dominant-baseline="middle" font-size="450">&#x1FAC5;&#x1F3FB;</text>
     <g transform="translate(150 430) rotate(-30) scale(2.4) translate(-50 -50)">
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
     <path d="M50 86 C24 66 10 51 10 33 C10 20 20 10 33 10 C41 10 47 14 50 20 C53 14 59 10 67 10 C80 10 90 20 90 33 C90 51 76 66 50 86 Z" fill="#c62839" stroke="#8e1022" stroke-width="3"/>
@@ -5472,7 +5472,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
     <g transform="translate(375 600) rotate(180) translate(-375 -600)">
           <g transform="translate(0 -270)">
     <ellipse cx="375" cy="600" rx="160" ry="240" fill="#fbf6ec" stroke="#a61d2a" stroke-width="4"/>
-    <text x="375" y="695" text-anchor="middle" dominant-baseline="middle" font-size="460">&#x1FAC5;&#x1F3FB;</text>
+    <text x="375" y="650" text-anchor="middle" dominant-baseline="middle" font-size="450">&#x1FAC5;&#x1F3FB;</text>
     <g transform="translate(150 430) rotate(-30) scale(2.4) translate(-50 -50)">
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
     <path d="M50 86 C24 66 10 51 10 33 C10 20 20 10 33 10 C41 10 47 14 50 20 C53 14 59 10 67 10 C80 10 90 20 90 33 C90 51 76 66 50 86 Z" fill="#c62839" stroke="#8e1022" stroke-width="3"/>
@@ -5494,7 +5494,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>Ober von Herz</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -5581,7 +5581,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
     <line x1="60" y1="600" x2="690" y2="600" stroke="#c62839" stroke-width="8"/>
   <g transform="translate(0 -270)">
     <ellipse cx="375" cy="600" rx="160" ry="240" fill="#fbf6ec" stroke="#a61d2a" stroke-width="4"/>
-    <text x="375" y="695" text-anchor="middle" dominant-baseline="middle" font-size="460">&#x1F3C7;</text>
+    <text x="375" y="650" text-anchor="middle" dominant-baseline="middle" font-size="450">&#x1F3C7;</text>
     <g transform="translate(120 400) rotate(-30) scale(2) translate(-50 -50)">
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
     <path d="M50 86 C24 66 10 51 10 33 C10 20 20 10 33 10 C41 10 47 14 50 20 C53 14 59 10 67 10 C80 10 90 20 90 33 C90 51 76 66 50 86 Z" fill="#c62839" stroke="#8e1022" stroke-width="3"/>
@@ -5592,7 +5592,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
     <g transform="translate(375 600) rotate(180) translate(-375 -600)">
           <g transform="translate(0 -270)">
     <ellipse cx="375" cy="600" rx="160" ry="240" fill="#fbf6ec" stroke="#a61d2a" stroke-width="4"/>
-    <text x="375" y="695" text-anchor="middle" dominant-baseline="middle" font-size="460">&#x1F3C7;</text>
+    <text x="375" y="650" text-anchor="middle" dominant-baseline="middle" font-size="450">&#x1F3C7;</text>
     <g transform="translate(120 400) rotate(-30) scale(2) translate(-50 -50)">
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
     <path d="M50 86 C24 66 10 51 10 33 C10 20 20 10 33 10 C41 10 47 14 50 20 C53 14 59 10 67 10 C80 10 90 20 90 33 C90 51 76 66 50 86 Z" fill="#c62839" stroke="#8e1022" stroke-width="3"/>
@@ -5614,7 +5614,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>Unter von Herz</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -5701,7 +5701,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
     <line x1="60" y1="600" x2="690" y2="600" stroke="#c62839" stroke-width="8"/>
   <g transform="translate(0 -270)">
     <ellipse cx="375" cy="600" rx="160" ry="240" fill="#fbf6ec" stroke="#a61d2a" stroke-width="4"/>
-    <text x="375" y="695" text-anchor="middle" dominant-baseline="middle" font-size="460">&#x1F472;</text>
+    <text x="375" y="650" text-anchor="middle" dominant-baseline="middle" font-size="450">&#x1F472;</text>
     <g transform="translate(150 760) rotate(-30) scale(2.4) translate(-50 -50)">
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
     <path d="M50 86 C24 66 10 51 10 33 C10 20 20 10 33 10 C41 10 47 14 50 20 C53 14 59 10 67 10 C80 10 90 20 90 33 C90 51 76 66 50 86 Z" fill="#c62839" stroke="#8e1022" stroke-width="3"/>
@@ -5712,7 +5712,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
     <g transform="translate(375 600) rotate(180) translate(-375 -600)">
           <g transform="translate(0 -270)">
     <ellipse cx="375" cy="600" rx="160" ry="240" fill="#fbf6ec" stroke="#a61d2a" stroke-width="4"/>
-    <text x="375" y="695" text-anchor="middle" dominant-baseline="middle" font-size="460">&#x1F472;</text>
+    <text x="375" y="650" text-anchor="middle" dominant-baseline="middle" font-size="450">&#x1F472;</text>
     <g transform="translate(150 760) rotate(-30) scale(2.4) translate(-50 -50)">
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
     <path d="M50 86 C24 66 10 51 10 33 C10 20 20 10 33 10 C41 10 47 14 50 20 C53 14 59 10 67 10 C80 10 90 20 90 33 C90 51 76 66 50 86 Z" fill="#c62839" stroke="#8e1022" stroke-width="3"/>
@@ -5734,7 +5734,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>9 von Herz</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -5944,7 +5944,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>8 von Herz</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -6142,7 +6142,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>7 von Herz</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -6328,7 +6328,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>6 von Herz</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -6502,7 +6502,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>5 von Herz</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -6664,7 +6664,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>4 von Herz</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -6814,7 +6814,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>3 von Herz</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -6952,7 +6952,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>2 von Herz</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -7078,7 +7078,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>Ass von Schellen</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -7191,7 +7191,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>10 von Schellen</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -7573,7 +7573,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>König von Schellen</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -7660,7 +7660,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
     <line x1="60" y1="600" x2="690" y2="600" stroke="#f2ca52" stroke-width="8"/>
   <g transform="translate(0 -270)">
     <ellipse cx="375" cy="600" rx="160" ry="240" fill="#fbf6ec" stroke="#b78908" stroke-width="4"/>
-    <text x="375" y="695" text-anchor="middle" dominant-baseline="middle" font-size="460">&#x1FAC5;&#x1F3FB;</text>
+    <text x="375" y="650" text-anchor="middle" dominant-baseline="middle" font-size="450">&#x1FAC5;&#x1F3FB;</text>
     <g transform="translate(150 430) rotate(-30) scale(2.4) translate(-50 -50)">
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
     <rect x="44" y="12" width="12" height="10" rx="3" fill="#f0c13a" stroke="#9e7300" stroke-width="3"/>
@@ -7679,7 +7679,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
     <g transform="translate(375 600) rotate(180) translate(-375 -600)">
           <g transform="translate(0 -270)">
     <ellipse cx="375" cy="600" rx="160" ry="240" fill="#fbf6ec" stroke="#b78908" stroke-width="4"/>
-    <text x="375" y="695" text-anchor="middle" dominant-baseline="middle" font-size="460">&#x1FAC5;&#x1F3FB;</text>
+    <text x="375" y="650" text-anchor="middle" dominant-baseline="middle" font-size="450">&#x1FAC5;&#x1F3FB;</text>
     <g transform="translate(150 430) rotate(-30) scale(2.4) translate(-50 -50)">
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
     <rect x="44" y="12" width="12" height="10" rx="3" fill="#f0c13a" stroke="#9e7300" stroke-width="3"/>
@@ -7709,7 +7709,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>Ober von Schellen</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -7796,7 +7796,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
     <line x1="60" y1="600" x2="690" y2="600" stroke="#f2ca52" stroke-width="8"/>
   <g transform="translate(0 -270)">
     <ellipse cx="375" cy="600" rx="160" ry="240" fill="#fbf6ec" stroke="#b78908" stroke-width="4"/>
-    <text x="375" y="695" text-anchor="middle" dominant-baseline="middle" font-size="460">&#x1F3C7;</text>
+    <text x="375" y="650" text-anchor="middle" dominant-baseline="middle" font-size="450">&#x1F3C7;</text>
     <g transform="translate(120 400) rotate(-30) scale(2) translate(-50 -50)">
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
     <rect x="44" y="12" width="12" height="10" rx="3" fill="#f0c13a" stroke="#9e7300" stroke-width="3"/>
@@ -7815,7 +7815,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
     <g transform="translate(375 600) rotate(180) translate(-375 -600)">
           <g transform="translate(0 -270)">
     <ellipse cx="375" cy="600" rx="160" ry="240" fill="#fbf6ec" stroke="#b78908" stroke-width="4"/>
-    <text x="375" y="695" text-anchor="middle" dominant-baseline="middle" font-size="460">&#x1F3C7;</text>
+    <text x="375" y="650" text-anchor="middle" dominant-baseline="middle" font-size="450">&#x1F3C7;</text>
     <g transform="translate(120 400) rotate(-30) scale(2) translate(-50 -50)">
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
     <rect x="44" y="12" width="12" height="10" rx="3" fill="#f0c13a" stroke="#9e7300" stroke-width="3"/>
@@ -7845,7 +7845,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>Unter von Schellen</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -7932,7 +7932,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
     <line x1="60" y1="600" x2="690" y2="600" stroke="#f2ca52" stroke-width="8"/>
   <g transform="translate(0 -270)">
     <ellipse cx="375" cy="600" rx="160" ry="240" fill="#fbf6ec" stroke="#b78908" stroke-width="4"/>
-    <text x="375" y="695" text-anchor="middle" dominant-baseline="middle" font-size="460">&#x1F472;</text>
+    <text x="375" y="650" text-anchor="middle" dominant-baseline="middle" font-size="450">&#x1F472;</text>
     <g transform="translate(150 760) rotate(-30) scale(2.4) translate(-50 -50)">
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
     <rect x="44" y="12" width="12" height="10" rx="3" fill="#f0c13a" stroke="#9e7300" stroke-width="3"/>
@@ -7951,7 +7951,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
     <g transform="translate(375 600) rotate(180) translate(-375 -600)">
           <g transform="translate(0 -270)">
     <ellipse cx="375" cy="600" rx="160" ry="240" fill="#fbf6ec" stroke="#b78908" stroke-width="4"/>
-    <text x="375" y="695" text-anchor="middle" dominant-baseline="middle" font-size="460">&#x1F472;</text>
+    <text x="375" y="650" text-anchor="middle" dominant-baseline="middle" font-size="450">&#x1F472;</text>
     <g transform="translate(150 760) rotate(-30) scale(2.4) translate(-50 -50)">
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
     <rect x="44" y="12" width="12" height="10" rx="3" fill="#f0c13a" stroke="#9e7300" stroke-width="3"/>
@@ -7981,7 +7981,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>9 von Schellen</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -8335,7 +8335,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>8 von Schellen</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -8661,7 +8661,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>7 von Schellen</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -8959,7 +8959,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>6 von Schellen</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -9229,7 +9229,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>5 von Schellen</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -9471,7 +9471,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>4 von Schellen</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -9685,7 +9685,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>3 von Schellen</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -9871,7 +9871,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>2 von Schellen</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
@@ -10029,7 +10029,7 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
                 <dc:format>image/svg+xml</dc:format>
                 <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
                 <dc:title>Cards German Double Card Back</dc:title>
-                <dc:date>2026-07-20</dc:date>
+                <dc:date>2026-07-24</dc:date>
                 <dc:creator>
                     <cc:Agent>
                         <dc:title>Oliver Merkel, Merkel(dot)Oliver(at)web(dot)de</dc:title>
